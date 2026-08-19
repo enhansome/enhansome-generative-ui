@@ -1,66 +1,6 @@
 {
   "items": [
     {
-      "description": "Generative UI is the practice of using AI models (typically LLMs) to dynamically generate user interface components at runtime, rather than having developers hand-code every interface.",
-      "items": [],
-      "title": "What is Generative UI"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "The Spectrum"
-    },
-    {
-      "description": "Generative UI enables personalization at scale, rapid prototyping, and natural language interfaces (e.g., \"Show me sales by region\" produces an actual chart), while reducing development time by shifting effort from implementation details to intent.",
-      "items": [],
-      "title": "Why It Matters"
-    },
-    {
-      "description": "Challenges include Consistency (generated UIs may look different each time), Performance (generation takes time; streaming helps), Safety (arbitrary code generation has security implications), and Hallucination (AI might generate components that don't exist).",
-      "items": [],
-      "title": "Challenges"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "Key Concepts"
-    },
-    {
-      "description": "A predefined set of UI components the AI can use. Instead of generating arbitrary HTML/CSS, the AI selects from known, tested components.",
-      "items": [],
-      "title": "Component Registry"
-    },
-    {
-      "description": "A predefined set of data sources the AI can query. Prevents hallucinated API calls.",
-      "items": [],
-      "title": "Query Registry"
-    },
-    {
-      "description": "Rendering UI components as they're generated, rather than waiting for complete output.",
-      "items": [],
-      "title": "Streaming UI"
-    },
-    {
-      "description": "React Server Components enable streaming UI from server to client, making generative UI more practical.",
-      "items": [],
-      "title": "Server Components"
-    },
-    {
-      "description": "Using JSON schemas or function calling to ensure AI outputs valid, parseable UI descriptions.",
-      "items": [],
-      "title": "Structured Output"
-    },
-    {
-      "description": "A fundamental design decision in generative UI systems:\nConstrained systems are safer and more consistent — the AI can only use pre-approved components with known behavior. Trade-off: less flexible, requires component development upfront.\nUnconstrained systems are more powerful — the AI can create anything. Trade-off: needs sandboxing (iframe, E2B), potential for inconsistency, and security considerations.\nGoogle's research (see below) suggests unconstrained generation may become the dominant approach as models improve. They found users preferred AI-generated HTML/CSS over markdown 83% of the time, calling it an \"emergent capability\" — models produce good UIs without UI-specific training.\nIn practice, the 2025–2026 wave of production systems has leaned the other way. AG-UI, Google's own A2UI spec, the MCP Apps extension, and SDKs like Crayon and assistant-ui all standardize on constrained / declarative output — agents emit allow-listed components rather than raw code — for safety and consistency. Both ends of the spectrum are advancing in parallel rather than one cleanly winning.",
-      "items": [],
-      "title": "Constrained vs Unconstrained Generation"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "Research"
-    },
-    {
       "description": "Benchmarks for evaluating UI generation and datasets that enable screenshot-to-code, layout understanding, and web-agent interaction.",
       "items": [
         {
@@ -70,11 +10,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 670111980,
             "language": "Python",
             "last_commit": "2025-11-26T21:16:00Z",
             "owner": "web-arena-x",
             "repo": "webarena",
-            "stars": 1583
+            "stars": 1584
           }
         },
         {
@@ -84,6 +25,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 631014879,
             "language": "Jupyter Notebook",
             "last_commit": "2025-11-05T00:38:41Z",
             "owner": "OSU-NLP-Group",
@@ -98,6 +40,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 747496066,
             "language": "Python",
             "last_commit": "2024-11-09T00:47:00Z",
             "owner": "web-arena-x",
@@ -112,6 +55,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 122572017,
             "language": "HTML",
             "last_commit": "2026-08-13T18:55:32Z",
             "owner": "Farama-Foundation",
@@ -123,368 +67,394 @@
       "title": "Benchmarks & Datasets"
     },
     {
-      "description": "",
-      "items": [],
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Model Context Protocol (MCP) Servers",
+              "description": "Reference implementations of MCP servers and tooling.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 890668799,
+                "language": "TypeScript",
+                "last_commit": "2026-08-18T16:04:56Z",
+                "owner": "modelcontextprotocol",
+                "repo": "servers",
+                "stars": 89683
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "mcp-ui",
+              "description": "Ido Salomon and Liad Yosef. Community SDK (TypeScript, Ruby, Python) for serving interactive UI over MCP; pioneered the pattern that fed the official MCP Apps spec.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 983113668,
+                "language": "TypeScript",
+                "last_commit": "2026-07-08T04:21:59Z",
+                "owner": "MCP-UI-Org",
+                "repo": "mcp-ui",
+                "stars": 5095
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "MCP Apps (UI Extension)",
+              "description": "The official MCP extension for interactive UI: tools return UI resources that render in an iframe inside the host client. Builds on mcp-ui and the OpenAI Apps SDK (announcement).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1101234405,
+                "language": "TypeScript",
+                "last_commit": "2026-08-12T15:04:55Z",
+                "owner": "modelcontextprotocol",
+                "repo": "ext-apps",
+                "stars": 2732
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Open Specifications"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "A2UI",
+              "description": "Google. Declarative, streaming (JSONL) generative-UI spec: agents request allow-listed components that the client renders natively (Flutter, Angular, Lit). A data format, not executable code (site).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1063641074,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T03:46:40Z",
+                "owner": "a2ui-project",
+                "repo": "a2ui",
+                "stars": 16155
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "AG-UI (Agent-User Interaction Protocol)",
+              "description": "CopilotKit. Open, event-based protocol that streams agent activity and shared state to front ends over SSE. Adopted by Google, LangChain, AWS, Microsoft, Mastra, and PydanticAI.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 979392131,
+                "language": "Python",
+                "last_commit": "2026-08-19T11:15:28Z",
+                "owner": "ag-ui-protocol",
+                "repo": "ag-ui",
+                "stars": 15385
+              }
+            }
+          ],
+          "description": "Protocols that connect agent backends to front ends and describe the UI that agents emit.",
+          "node_type": "group",
+          "title": "Agent-to-UI Protocols"
+        }
+      ],
       "title": "Specifications & Protocols"
     },
     {
-      "description": "",
+      "description": null,
       "items": [
         {
-          "node_type": "item",
-          "title": "Model Context Protocol (MCP) Servers",
-          "description": "Reference implementations of MCP servers and tooling.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T16:04:56Z",
-            "owner": "modelcontextprotocol",
-            "repo": "servers",
-            "stars": 89663
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "CopilotKit",
+              "description": "Full-stack framework for in-app agents and generative UI across React, Angular, mobile, and Slack; makers of the AG-UI protocol.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 655515393,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T12:05:09Z",
+                "owner": "CopilotKit",
+                "repo": "CopilotKit",
+                "stars": 36844
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "assistant-ui",
+              "description": "TypeScript/React primitives for AI chat with a first-class generative-UI primitive that renders agent-described components from a consumer-provided allowlist.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 722184017,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T09:52:24Z",
+                "owner": "assistant-ui",
+                "repo": "assistant-ui",
+                "stars": 11729
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Tambo",
+              "description": "Generative UI SDK for React, purpose-built for streaming AI-generated components.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 815634288,
+                "language": "TypeScript",
+                "last_commit": "2026-08-17T22:39:30Z",
+                "owner": "tambo-ai",
+                "repo": "tambo",
+                "stars": 11160
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "OpenUI Lang (Thesys)",
+              "description": "MIT-licensed, streaming-first DSL and React runtime for model-generated UI; a compact, token-efficient alternative to emitting component JSON.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 897268988,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T12:01:29Z",
+                "owner": "thesysdev",
+                "repo": "openui",
+                "stars": 8411
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Hashbrown",
+              "description": "Framework for building generative user interfaces in Angular and React.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 955577327,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T03:19:07Z",
+                "owner": "liveloveapp",
+                "repo": "hashbrown",
+                "stars": 719
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "mdocUI",
+              "description": "Streaming generative UI using Markdoc tag syntax. Framework-agnostic core with React renderer, 24 theme-neutral components, and Zod schema validation.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1193553519,
+                "language": "TypeScript",
+                "last_commit": "2026-04-11T08:01:37Z",
+                "owner": "mdocui",
+                "repo": "mdocui",
+                "stars": 39
+              }
+            }
+          ],
+          "description": "Purpose-built for streaming AI-generated interfaces:",
+          "node_type": "group",
+          "title": "Generative UI Frameworks"
         },
         {
-          "node_type": "item",
-          "title": "mcp-ui",
-          "description": "Ido Salomon and Liad Yosef. Community SDK (TypeScript, Ruby, Python) for serving interactive UI over MCP; pioneered the pattern that fed the official MCP Apps spec.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-07-08T04:21:59Z",
-            "owner": "MCP-UI-Org",
-            "repo": "mcp-ui",
-            "stars": 5093
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "MCP Apps (UI Extension)",
-          "description": "The official MCP extension for interactive UI: tools return UI resources that render in an iframe inside the host client. Builds on mcp-ui and the OpenAI Apps SDK (announcement).",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-12T15:04:55Z",
-            "owner": "modelcontextprotocol",
-            "repo": "ext-apps",
-            "stars": 2730
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Mitosis",
+              "description": "Builder.io. Write components once and compile to React/Vue/Svelte/etc.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 310456670,
+                "language": "TypeScript",
+                "last_commit": "2026-07-21T14:38:54Z",
+                "owner": "BuilderIO",
+                "repo": "mitosis",
+                "stars": 13903
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Instructor",
+              "description": "Structured output extraction; useful with UI schemas for reliable generation.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 653589102,
+                "language": "Python",
+                "last_commit": "2026-08-09T14:55:49Z",
+                "owner": "567-labs",
+                "repo": "instructor",
+                "stars": 13750
+              }
+            }
+          ],
+          "description": "Building blocks for reliable generation:",
+          "node_type": "group",
+          "title": "Supporting Libraries"
         }
       ],
-      "title": "Open Specifications"
-    },
-    {
-      "description": "Protocols that connect agent backends to front ends and describe the UI that agents emit.",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "A2UI",
-          "description": "Google. Declarative, streaming (JSONL) generative-UI spec: agents request allow-listed components that the client renders natively (Flutter, Angular, Lit). A data format, not executable code (site).",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T18:52:36Z",
-            "owner": "a2ui-project",
-            "repo": "a2ui",
-            "stars": 16145
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "AG-UI (Agent-User Interaction Protocol)",
-          "description": "CopilotKit. Open, event-based protocol that streams agent activity and shared state to front ends over SSE. Adopted by Google, LangChain, AWS, Microsoft, Mastra, and PydanticAI.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T18:34:14Z",
-            "owner": "ag-ui-protocol",
-            "repo": "ag-ui",
-            "stars": 15370
-          }
-        }
-      ],
-      "title": "Agent-to-UI Protocols"
-    },
-    {
-      "description": "These specs are largely complementary rather than competing — they standardize different layers of the same stack:",
-      "items": [],
-      "title": "How the Layers Fit Together"
-    },
-    {
-      "description": "",
-      "items": [],
       "title": "Frameworks & SDKs"
     },
     {
-      "description": "Purpose-built for streaming AI-generated interfaces:",
+      "description": null,
       "items": [
         {
-          "node_type": "item",
-          "title": "CopilotKit",
-          "description": "Full-stack framework for in-app agents and generative UI across React, Angular, mobile, and Slack; makers of the AG-UI protocol.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T18:44:52Z",
-            "owner": "CopilotKit",
-            "repo": "CopilotKit",
-            "stars": 36827
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "OpenUI (Weights & Biases)",
+              "description": "Describe UI in natural language and see it rendered live.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 773544702,
+                "language": "TypeScript",
+                "last_commit": "2026-08-14T06:32:28Z",
+                "owner": "wandb",
+                "repo": "openui",
+                "stars": 22510
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "openv0",
+              "description": "Open source v0 clone that generates React/Tailwind components from prompts.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 693743670,
+                "language": "TypeScript",
+                "last_commit": "2024-09-19T02:49:32Z",
+                "owner": "nraiden",
+                "repo": "openv0",
+                "stars": 3951
+              }
+            }
+          ],
+          "description": "\"Describe a component, get code.\"",
+          "node_type": "group",
+          "title": "Component Generators"
         },
         {
-          "node_type": "item",
-          "title": "assistant-ui",
-          "description": "TypeScript/React primitives for AI chat with a first-class generative-UI primitive that renders agent-described components from a consumer-provided allowlist.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T15:03:53Z",
-            "owner": "assistant-ui",
-            "repo": "assistant-ui",
-            "stars": 11714
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Tambo",
-          "description": "Generative UI SDK for React, purpose-built for streaming AI-generated components.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-17T22:39:30Z",
-            "owner": "tambo-ai",
-            "repo": "tambo",
-            "stars": 11157
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "OpenUI Lang (Thesys)",
-          "description": "MIT-licensed, streaming-first DSL and React runtime for model-generated UI; a compact, token-efficient alternative to emitting component JSON.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T18:52:04Z",
-            "owner": "thesysdev",
-            "repo": "openui",
-            "stars": 8403
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Hashbrown",
-          "description": "Framework for building generative user interfaces in Angular and React.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-10T22:02:43Z",
-            "owner": "liveloveapp",
-            "repo": "hashbrown",
-            "stars": 719
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "mdocUI",
-          "description": "Streaming generative UI using Markdoc tag syntax. Framework-agnostic core with React renderer, 24 theme-neutral components, and Zod schema validation.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-04-11T08:01:37Z",
-            "owner": "mdocui",
-            "repo": "mdocui",
-            "stars": 39
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Playwright MCP",
+              "description": "Microsoft. MCP server for browser automation and UI regression testing workflows.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 952688112,
+                "language": "TypeScript",
+                "last_commit": "2026-08-17T22:52:05Z",
+                "owner": "microsoft",
+                "repo": "playwright-mcp",
+                "stars": 36270
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Figma-Context-MCP",
+              "description": "GLips. Provides Figma layout information to AI coding agents.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 931892749,
+                "language": "TypeScript",
+                "last_commit": "2026-08-07T04:58:42Z",
+                "owner": "GLips",
+                "repo": "Figma-Context-MCP",
+                "stars": 15678
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Cursor Talk to Figma MCP",
+              "description": "Grab. MCP server + Figma plugin for reading and modifying Figma designs.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 949523404,
+                "language": "JavaScript",
+                "last_commit": "2026-07-26T07:14:26Z",
+                "owner": "grab",
+                "repo": "cursor-talk-to-figma-mcp",
+                "stars": 6973
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "21st.dev Magic MCP",
+              "description": "21st.dev. Generate UI components from prompts with design-system awareness.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 935450522,
+                "language": "JavaScript",
+                "last_commit": "2026-07-31T23:27:33Z",
+                "owner": "21st-dev",
+                "repo": "magic-mcp",
+                "stars": 5691
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "shadcn-ui-mcp-server",
+              "description": "Jpisnice. Helps LLMs understand shadcn/ui component structure.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 961975051,
+                "language": "TypeScript",
+                "last_commit": "2026-05-16T13:09:07Z",
+                "owner": "Jpisnice",
+                "repo": "shadcn-ui-mcp-server",
+                "stars": 2942
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Storybook MCP",
+              "description": "Storybook. MCP server and addon that exposes component information and workflows from your local Storybook (npm).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1042284426,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T12:22:53Z",
+                "owner": "storybookjs",
+                "repo": "mcp",
+                "stars": 266
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "shadcn-vue-mcp",
+              "description": "HelloGGX. MCP server for shadcn-vue component knowledge.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 960961801,
+                "language": "TypeScript",
+                "last_commit": "2025-11-16T08:53:56Z",
+                "owner": "HelloGGX",
+                "repo": "shadcn-vue-mcp",
+                "stars": 109
+              }
+            }
+          ],
+          "description": "\"Model Context Protocol servers that improve AI UI generation.\"",
+          "node_type": "group",
+          "title": "MCP Tools for UI"
         }
       ],
-      "title": "Generative UI Frameworks"
-    },
-    {
-      "description": "Building blocks for reliable generation:",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Mitosis",
-          "description": "Builder.io. Write components once and compile to React/Vue/Svelte/etc.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-07-21T14:38:54Z",
-            "owner": "BuilderIO",
-            "repo": "mitosis",
-            "stars": 13900
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Instructor",
-          "description": "Structured output extraction; useful with UI schemas for reliable generation.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-09T14:55:49Z",
-            "owner": "567-labs",
-            "repo": "instructor",
-            "stars": 13746
-          }
-        }
-      ],
-      "title": "Supporting Libraries"
-    },
-    {
-      "description": "",
-      "items": [],
       "title": "Tools & Platforms"
-    },
-    {
-      "description": "\"Describe a component, get code.\"",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "OpenUI (Weights & Biases)",
-          "description": "Describe UI in natural language and see it rendered live.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-14T06:32:28Z",
-            "owner": "wandb",
-            "repo": "openui",
-            "stars": 22509
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "openv0",
-          "description": "Open source v0 clone that generates React/Tailwind components from prompts.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2024-09-19T02:49:32Z",
-            "owner": "nraiden",
-            "repo": "openv0",
-            "stars": 3951
-          }
-        }
-      ],
-      "title": "Component Generators"
-    },
-    {
-      "description": "\"Model Context Protocol servers that improve AI UI generation.\"",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Playwright MCP",
-          "description": "Microsoft. MCP server for browser automation and UI regression testing workflows.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-17T22:52:05Z",
-            "owner": "microsoft",
-            "repo": "playwright-mcp",
-            "stars": 36244
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Figma-Context-MCP",
-          "description": "GLips. Provides Figma layout information to AI coding agents.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-07T04:58:42Z",
-            "owner": "GLips",
-            "repo": "Figma-Context-MCP",
-            "stars": 15671
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Cursor Talk to Figma MCP",
-          "description": "Grab. MCP server + Figma plugin for reading and modifying Figma designs.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-07-26T07:14:26Z",
-            "owner": "grab",
-            "repo": "cursor-talk-to-figma-mcp",
-            "stars": 6970
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "21st.dev Magic MCP",
-          "description": "21st.dev. Generate UI components from prompts with design-system awareness.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-07-31T23:27:33Z",
-            "owner": "21st-dev",
-            "repo": "magic-mcp",
-            "stars": 5691
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "shadcn-ui-mcp-server",
-          "description": "Jpisnice. Helps LLMs understand shadcn/ui component structure.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-05-16T13:09:07Z",
-            "owner": "Jpisnice",
-            "repo": "shadcn-ui-mcp-server",
-            "stars": 2941
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Storybook MCP",
-          "description": "Storybook. MCP server and addon that exposes component information and workflows from your local Storybook (npm).",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T16:33:16Z",
-            "owner": "storybookjs",
-            "repo": "mcp",
-            "stars": 266
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "shadcn-vue-mcp",
-          "description": "HelloGGX. MCP server for shadcn-vue component knowledge.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2025-11-16T08:53:56Z",
-            "owner": "HelloGGX",
-            "repo": "shadcn-vue-mcp",
-            "stars": 109
-          }
-        }
-      ],
-      "title": "MCP Tools for UI"
     },
     {
       "description": "When UIs (or UI code) are model-generated, treat outputs as untrusted. These resources cover browser sandboxing, sanitization, and LLM-app security pitfalls.",
@@ -496,11 +466,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 16927692,
             "language": "JavaScript",
-            "last_commit": "2026-08-18T14:59:47Z",
+            "last_commit": "2026-08-19T11:57:28Z",
             "owner": "cure53",
             "repo": "DOMPurify",
-            "stars": 17311
+            "stars": 17315
           }
         },
         {
@@ -510,11 +481,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 609539715,
             "language": "Python",
-            "last_commit": "2026-08-18T12:56:36Z",
+            "last_commit": "2026-08-19T11:46:34Z",
             "owner": "e2b-dev",
             "repo": "E2B",
-            "stars": 13455
+            "stars": 13470
           }
         },
         {
@@ -524,11 +496,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 340299463,
             "language": "TypeScript",
             "last_commit": "2025-04-24T13:17:28Z",
             "owner": "codesandbox",
             "repo": "sandpack",
-            "stars": 6211
+            "stars": 6213
           }
         }
       ],
@@ -544,11 +517,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 633927609,
             "language": "TypeScript",
-            "last_commit": "2026-08-18T18:28:36Z",
+            "last_commit": "2026-08-19T12:21:50Z",
             "owner": "promptfoo",
             "repo": "promptfoo",
-            "stars": 24343
+            "stars": 24371
           }
         },
         {
@@ -558,11 +532,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 639097338,
             "language": "Python",
             "last_commit": "2026-08-17T22:54:09Z",
             "owner": "NVIDIA",
             "repo": "garak",
-            "stars": 8848
+            "stars": 8859
           }
         },
         {
@@ -572,6 +547,7 @@
           "children": [],
           "repo_info": {
             "archived": true,
+            "id": 1191146757,
             "language": null,
             "last_commit": "2026-03-25T01:18:52Z",
             "owner": "Azure",
@@ -592,11 +568,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 245704608,
             "language": "TypeScript",
             "last_commit": "2026-08-17T20:27:22Z",
             "owner": "colinhacks",
             "repo": "zod",
-            "stars": 43485
+            "stars": 43491
           }
         },
         {
@@ -606,6 +583,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 564443255,
             "language": "Jupyter Notebook",
             "last_commit": "2026-05-21T17:08:04Z",
             "owner": "guidance-ai",
@@ -620,213 +598,211 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 615403340,
             "language": "Python",
             "last_commit": "2026-08-16T09:48:14Z",
             "owner": "dottxt-ai",
             "repo": "outlines",
-            "stars": 15644
+            "stars": 15647
           }
         }
       ],
       "title": "Schemas & Patterns"
     },
     {
-      "description": "",
-      "items": [],
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "LangUI",
+              "description": "LangbaseInc. Tailwind components for chat, AI assistants, and LLM projects.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 644862510,
+                "language": "HTML",
+                "last_commit": "2024-07-10T03:00:23Z",
+                "owner": "CommandCodeAI",
+                "repo": "langui",
+                "stars": 3146
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Markstream",
+              "description": "Multi-framework streaming Markdown components for AI chat, with Mermaid, KaTeX, code highlighting, safe HTML, and SSR support.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 988222683,
+                "language": "Vue",
+                "last_commit": "2026-08-19T09:07:45Z",
+                "owner": "Simon-He95",
+                "repo": "markstream-vue",
+                "stars": 2899
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "GPT-Vis",
+              "description": "AntV. Visualization components designed for LLM-generated outputs.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 718188122,
+                "language": "TypeScript",
+                "last_commit": "2026-06-26T02:18:29Z",
+                "owner": "antvis",
+                "repo": "GPT-Vis",
+                "stars": 768
+              }
+            }
+          ],
+          "description": "Components designed for LLM-powered apps:",
+          "node_type": "group",
+          "title": "For Building AI/Chat Interfaces"
+        }
+      ],
       "title": "Component Libraries"
     },
     {
-      "description": "Components designed for LLM-powered apps:",
+      "description": null,
       "items": [
         {
-          "node_type": "item",
-          "title": "LangUI",
-          "description": "LangbaseInc. Tailwind components for chat, AI assistants, and LLM projects.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "HTML",
-            "last_commit": "2024-07-10T03:00:23Z",
-            "owner": "CommandCodeAI",
-            "repo": "langui",
-            "stars": 3146
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Markstream",
-          "description": "Multi-framework streaming Markdown components for AI chat, with Mermaid, KaTeX, code highlighting, safe HTML, and SSR support.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Vue",
-            "last_commit": "2026-08-18T07:48:33Z",
-            "owner": "Simon-He95",
-            "repo": "markstream-vue",
-            "stars": 2898
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "GPT-Vis",
-          "description": "AntV. Visualization components designed for LLM-generated outputs.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-06-26T02:18:29Z",
-            "owner": "antvis",
-            "repo": "GPT-Vis",
-            "stars": 767
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "ai-chatbot",
+              "description": "Vercel. Full-featured chatbot with generative UI using the AI SDK.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 642917329,
+                "language": "TypeScript",
+                "last_commit": "2026-07-08T21:55:02Z",
+                "owner": "vercel",
+                "repo": "chatbot",
+                "stars": 20844
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "morphic",
+              "description": "AI-powered search engine with generative answer UI.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 782539945,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T00:41:17Z",
+                "owner": "miurla",
+                "repo": "morphic",
+                "stars": 9048
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "termite",
+              "description": "Terminal-based generative UI.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 826127627,
+                "language": "Python",
+                "last_commit": "2025-01-06T01:54:56Z",
+                "owner": "shobrook",
+                "repo": "termite",
+                "stars": 418
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "langgraphjs-gen-ui-examples",
+              "description": "LangChain. Collection of generative UI agents built with LangGraph.js.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 946160034,
+                "language": "TypeScript",
+                "last_commit": "2025-05-01T15:55:49Z",
+                "owner": "langchain-ai",
+                "repo": "langgraphjs-gen-ui-examples",
+                "stars": 402
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "gen-ui",
+              "description": "Reference implementation for generative UI with LangChain.js, AI SDK, and Next.js.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 807371448,
+                "language": "TypeScript",
+                "last_commit": "2024-08-01T17:13:07Z",
+                "owner": "bracesproul",
+                "repo": "gen-ui",
+                "stars": 293
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Open Source"
         }
       ],
-      "title": "For Building AI/Chat Interfaces"
-    },
-    {
-      "description": "",
-      "items": [],
       "title": "Examples & Demos"
     },
     {
-      "description": "",
+      "description": null,
       "items": [
         {
-          "node_type": "item",
-          "title": "ai-chatbot",
-          "description": "Vercel. Full-featured chatbot with generative UI using the AI SDK.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-07-08T21:55:02Z",
-            "owner": "vercel",
-            "repo": "chatbot",
-            "stars": 20840
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "morphic",
-          "description": "AI-powered search engine with generative answer UI.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T11:23:53Z",
-            "owner": "miurla",
-            "repo": "morphic",
-            "stars": 9048
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "termite",
-          "description": "Terminal-based generative UI.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-01-06T01:54:56Z",
-            "owner": "shobrook",
-            "repo": "termite",
-            "stars": 418
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "langgraphjs-gen-ui-examples",
-          "description": "LangChain. Collection of generative UI agents built with LangGraph.js.",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "TypeScript",
-            "last_commit": "2025-05-01T15:55:49Z",
-            "owner": "langchain-ai",
-            "repo": "langgraphjs-gen-ui-examples",
-            "stars": 402
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "gen-ui",
-          "description": "Reference implementation for generative UI with LangChain.js, AI SDK, and Next.js.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2024-08-01T17:13:07Z",
-            "owner": "bracesproul",
-            "repo": "gen-ui",
-            "stars": 293
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "OpenAI Evals",
+              "description": "OpenAI. Framework for evaluating model outputs with custom tasks and graders.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 592489166,
+                "language": "Python",
+                "last_commit": "2026-04-14T15:29:57Z",
+                "owner": "openai",
+                "repo": "evals",
+                "stars": 19200
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "TruLens",
+              "description": "TruEra. Evaluation and feedback tooling for LLM applications.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 309504885,
+                "language": "Python",
+                "last_commit": "2026-08-14T16:08:33Z",
+                "owner": "truera",
+                "repo": "trulens",
+                "stars": 3514
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Evaluation tooling (adjacent)"
         }
       ],
-      "title": "Open Source"
-    },
-    {
-      "description": "",
-      "items": [],
       "title": "Related Concepts"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "OpenAI Evals",
-          "description": "OpenAI. Framework for evaluating model outputs with custom tasks and graders.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-04-14T15:29:57Z",
-            "owner": "openai",
-            "repo": "evals",
-            "stars": 19196
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "TruLens",
-          "description": "TruEra. Evaluation and feedback tooling for LLM applications.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-14T16:08:33Z",
-            "owner": "truera",
-            "repo": "trulens",
-            "stars": 3514
-          }
-        }
-      ],
-      "title": "Evaluation tooling (adjacent)"
-    },
-    {
-      "description": "JSON Schema defines valid UI structures. OpenAPI describes APIs for query registries. Web Components are a framework-agnostic component standard.",
-      "items": [],
-      "title": "Standards & Formats"
-    },
-    {
-      "description": "Contributions welcome! Please read the contribution guidelines first.",
-      "items": [],
-      "title": "Contributing"
-    },
-    {
-      "description": "Submissions should be relevant to generative UI (not general AI/LLM), high quality (well-documented and maintained or historically significant), and accessible (open source, free tier, or detailed documentation).",
-      "items": [],
-      "title": "Criteria for Inclusion"
-    },
-    {
-      "description": "New frameworks and tools, research papers and articles, interesting examples and demos, and corrections/updates.\nLicense: CC BY 4.0 (see LICENSE).",
-      "items": [],
-      "title": "What We're Looking For"
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-18T18:52:38.936Z",
+    "last_updated": "2026-08-19T12:31:53.150Z",
     "original_repository": "narrowin/awesome-generative-ui",
+    "original_repository_id": 1117387225,
     "original_repository_sha": "d9079f48e36f82ccfd2048ac73a856c3283084e8",
     "enhanced_repository": "enhansome/enhansome-generative-ui",
     "enhanced_repository_description": null,
