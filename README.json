@@ -19,7 +19,7 @@
             "open_issues": 102,
             "owner": "web-arena-x",
             "repo": "webarena",
-            "stars": 1590,
+            "stars": 1591,
             "topics": [
               "agent",
               "nlp"
@@ -115,10 +115,10 @@
                 "language": "TypeScript",
                 "license": "NOASSERTION",
                 "last_commit": "2026-08-28T17:58:20Z",
-                "open_issues": 506,
+                "open_issues": 510,
                 "owner": "modelcontextprotocol",
                 "repo": "servers",
-                "stars": 89940,
+                "stars": 89960,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
@@ -139,7 +139,7 @@
                 "open_issues": 60,
                 "owner": "MCP-UI-Org",
                 "repo": "mcp-ui",
-                "stars": 5113,
+                "stars": 5114,
                 "topics": [
                   "ai",
                   "frontend",
@@ -167,7 +167,7 @@
                 "open_issues": 208,
                 "owner": "modelcontextprotocol",
                 "repo": "ext-apps",
-                "stars": 2770,
+                "stars": 2772,
                 "topics": [
                   "ai",
                   "apps",
@@ -198,11 +198,11 @@
                 "id": 1063641074,
                 "language": "TypeScript",
                 "license": "Apache-2.0",
-                "last_commit": "2026-08-29T02:34:10Z",
-                "open_issues": 350,
+                "last_commit": "2026-08-29T19:38:27Z",
+                "open_issues": 353,
                 "owner": "a2ui-project",
                 "repo": "a2ui",
-                "stars": 16229,
+                "stars": 16230,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
@@ -220,10 +220,10 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-08-28T21:52:12Z",
-                "open_issues": 333,
+                "open_issues": 334,
                 "owner": "ag-ui-protocol",
                 "repo": "ag-ui",
-                "stars": 15607,
+                "stars": 15619,
                 "topics": [
                   "ag-ui-protocol",
                   "agent-frontend",
@@ -259,11 +259,11 @@
                 "id": 655515393,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-08-29T04:23:23Z",
-                "open_issues": 364,
+                "last_commit": "2026-08-29T19:29:31Z",
+                "open_issues": 353,
                 "owner": "CopilotKit",
                 "repo": "CopilotKit",
-                "stars": 37094,
+                "stars": 37105,
                 "topics": [
                   "agent",
                   "agent-native",
@@ -301,11 +301,11 @@
                 "id": 722184017,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-08-29T04:58:21Z",
-                "open_issues": 87,
+                "last_commit": "2026-08-29T20:47:37Z",
+                "open_issues": 95,
                 "owner": "assistant-ui",
                 "repo": "assistant-ui",
-                "stars": 11908,
+                "stars": 11917,
                 "topics": [
                   "ai-chatbot",
                   "base-ui",
@@ -333,7 +333,7 @@
                 "id": 815634288,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-08-28T06:12:18Z",
+                "last_commit": "2026-08-29T17:43:14Z",
                 "open_issues": 38,
                 "owner": "tambo-ai",
                 "repo": "tambo",
@@ -366,11 +366,11 @@
                 "id": 897268988,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-08-28T18:43:30Z",
+                "last_commit": "2026-08-29T12:36:31Z",
                 "open_issues": 144,
                 "owner": "thesysdev",
                 "repo": "openui",
-                "stars": 8481,
+                "stars": 8483,
                 "topics": [
                   "agent",
                   "agents",
@@ -501,10 +501,10 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-08-29T02:44:55Z",
-                "open_issues": 39,
+                "open_issues": 40,
                 "owner": "567-labs",
                 "repo": "instructor",
-                "stars": 13795,
+                "stars": 13799,
                 "topics": [
                   "openai",
                   "openai-function-calli",
@@ -647,7 +647,7 @@
                 "open_issues": 131,
                 "owner": "abi",
                 "repo": "screenshot-to-code",
-                "stars": 75646,
+                "stars": 75984,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
@@ -675,7 +675,7 @@
                 "open_issues": 4,
                 "owner": "microsoft",
                 "repo": "playwright-mcp",
-                "stars": 36592,
+                "stars": 36604,
                 "topics": [
                   "mcp",
                   "playwright"
@@ -699,7 +699,7 @@
                 "open_issues": 23,
                 "owner": "GLips",
                 "repo": "Figma-Context-MCP",
-                "stars": 15731,
+                "stars": 15733,
                 "topics": [
                   "ai",
                   "cursor",
@@ -726,7 +726,7 @@
                 "open_issues": 88,
                 "owner": "grab",
                 "repo": "cursor-talk-to-figma-mcp",
-                "stars": 6987,
+                "stars": 6988,
                 "topics": [
                   "agent",
                   "agentic",
@@ -764,7 +764,7 @@
                 "open_issues": 1,
                 "owner": "21st-dev",
                 "repo": "magic-mcp",
-                "stars": 5747,
+                "stars": 5754,
                 "topics": [
                   "21st",
                   "claude",
@@ -794,7 +794,7 @@
                 "open_issues": 3,
                 "owner": "Jpisnice",
                 "repo": "shadcn-ui-mcp-server",
-                "stars": 2966,
+                "stars": 2968,
                 "topics": [
                   "ai",
                   "expo",
@@ -884,8 +884,8 @@
             "id": 16927692,
             "language": "JavaScript",
             "license": "Apache-2.0",
-            "last_commit": "2026-08-28T22:08:32Z",
-            "open_issues": 7,
+            "last_commit": "2026-08-29T14:23:25Z",
+            "open_issues": 0,
             "owner": "cure53",
             "repo": "DOMPurify",
             "stars": 17346,
@@ -921,7 +921,7 @@
             "open_issues": 47,
             "owner": "e2b-dev",
             "repo": "E2B",
-            "stars": 13577,
+            "stars": 13585,
             "topics": [
               "agent",
               "ai",
@@ -961,7 +961,7 @@
             "open_issues": 159,
             "owner": "codesandbox",
             "repo": "sandpack",
-            "stars": 6228,
+            "stars": 6227,
             "topics": [
               "documentation",
               "hacktoberfest",
@@ -992,11 +992,11 @@
             "id": 633927609,
             "language": "TypeScript",
             "license": "MIT",
-            "last_commit": "2026-08-29T02:53:58Z",
-            "open_issues": 540,
+            "last_commit": "2026-08-29T18:25:09Z",
+            "open_issues": 547,
             "owner": "promptfoo",
             "repo": "promptfoo",
-            "stars": 24651,
+            "stars": 24664,
             "topics": [
               "ci",
               "ci-cd",
@@ -1033,10 +1033,10 @@
             "language": "Python",
             "license": "Apache-2.0",
             "last_commit": "2026-08-25T22:37:37Z",
-            "open_issues": 408,
+            "open_issues": 409,
             "owner": "NVIDIA",
             "repo": "garak",
-            "stars": 9066,
+            "stars": 9071,
             "topics": [
               "ai",
               "llm-evaluation",
@@ -1091,11 +1091,11 @@
             "id": 245704608,
             "language": "TypeScript",
             "license": "MIT",
-            "last_commit": "2026-08-29T00:59:43Z",
-            "open_issues": 76,
+            "last_commit": "2026-08-29T20:43:07Z",
+            "open_issues": 79,
             "owner": "colinhacks",
             "repo": "zod",
-            "stars": 43556,
+            "stars": 43566,
             "topics": [
               "runtime-validation",
               "schema-validation",
@@ -1143,7 +1143,7 @@
             "open_issues": 163,
             "owner": "dottxt-ai",
             "repo": "outlines",
-            "stars": 15710,
+            "stars": 15713,
             "topics": [
               "cfg",
               "generative-ai",
@@ -1208,7 +1208,7 @@
                 "id": 988222683,
                 "language": "Vue",
                 "license": "MIT",
-                "last_commit": "2026-08-28T23:24:44Z",
+                "last_commit": "2026-08-29T14:37:15Z",
                 "open_issues": 2,
                 "owner": "Simon-He95",
                 "repo": "markstream-vue",
@@ -1293,7 +1293,7 @@
                 "open_issues": 28,
                 "owner": "vercel",
                 "repo": "chatbot",
-                "stars": 20885,
+                "stars": 20886,
                 "topics": [
                   "ai",
                   "chatgpt",
@@ -1434,10 +1434,10 @@
                 "language": "Python",
                 "license": "NOASSERTION",
                 "last_commit": "2026-04-14T15:29:57Z",
-                "open_issues": 324,
+                "open_issues": 327,
                 "owner": "openai",
                 "repo": "evals",
-                "stars": 19297,
+                "stars": 19307,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
@@ -1458,7 +1458,7 @@
                 "open_issues": 61,
                 "owner": "truera",
                 "repo": "trulens",
-                "stars": 3526,
+                "stars": 3529,
                 "topics": [
                   "agent-evaluation",
                   "agentops",
@@ -1487,7 +1487,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-29T05:01:16.429Z",
+    "last_updated": "2026-08-29T20:51:48.231Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of resources for AI-generated user interfaces — systems where LLMs dynamically create, compose, and render UI components.",
