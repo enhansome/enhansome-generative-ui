@@ -16,7 +16,8 @@
             "owner": "web-arena-x",
             "repo": "webarena",
             "stars": 1590
-          }
+          },
+          "first_seen": "2026-08-29T01:43:37.111Z"
         },
         {
           "node_type": "item",
@@ -30,8 +31,9 @@
             "last_commit": "2025-11-05T00:38:41Z",
             "owner": "OSU-NLP-Group",
             "repo": "Mind2Web",
-            "stars": 1021
-          }
+            "stars": 1022
+          },
+          "first_seen": "2026-08-29T01:43:37.111Z"
         },
         {
           "node_type": "item",
@@ -46,7 +48,8 @@
             "owner": "web-arena-x",
             "repo": "visualwebarena",
             "stars": 485
-          }
+          },
+          "first_seen": "2026-08-29T01:43:37.111Z"
         },
         {
           "node_type": "item",
@@ -60,8 +63,9 @@
             "last_commit": "2026-08-13T18:55:32Z",
             "owner": "Farama-Foundation",
             "repo": "MiniWoB-plusplus",
-            "stars": 397
-          }
+            "stars": 398
+          },
+          "first_seen": "2026-08-29T01:43:37.111Z"
         }
       ],
       "title": "Benchmarks & Datasets"
@@ -80,11 +84,12 @@
                 "archived": false,
                 "id": 890668799,
                 "language": "TypeScript",
-                "last_commit": "2026-08-20T01:12:36Z",
+                "last_commit": "2026-08-28T17:58:20Z",
                 "owner": "modelcontextprotocol",
                 "repo": "servers",
-                "stars": 89915
-              }
+                "stars": 89937
+              },
+              "first_seen": "2026-08-29T01:43:37.111Z"
             },
             {
               "node_type": "item",
@@ -98,8 +103,9 @@
                 "last_commit": "2026-07-08T04:21:59Z",
                 "owner": "MCP-UI-Org",
                 "repo": "mcp-ui",
-                "stars": 5111
-              }
+                "stars": 5113
+              },
+              "first_seen": "2026-08-29T01:43:37.111Z"
             },
             {
               "node_type": "item",
@@ -113,8 +119,9 @@
                 "last_commit": "2026-08-12T15:04:55Z",
                 "owner": "modelcontextprotocol",
                 "repo": "ext-apps",
-                "stars": 2767
-              }
+                "stars": 2769
+              },
+              "first_seen": "2026-08-29T01:43:37.111Z"
             }
           ],
           "description": null,
@@ -132,11 +139,12 @@
                 "archived": false,
                 "id": 1063641074,
                 "language": "TypeScript",
-                "last_commit": "2026-08-28T02:04:39Z",
+                "last_commit": "2026-08-29T00:05:49Z",
                 "owner": "a2ui-project",
                 "repo": "a2ui",
-                "stars": 16222
-              }
+                "stars": 16230
+              },
+              "first_seen": "2026-08-29T01:43:37.111Z"
             },
             {
               "node_type": "item",
@@ -147,11 +155,12 @@
                 "archived": false,
                 "id": 979392131,
                 "language": "Python",
-                "last_commit": "2026-08-27T22:01:22Z",
+                "last_commit": "2026-08-28T21:52:12Z",
                 "owner": "ag-ui-protocol",
                 "repo": "ag-ui",
-                "stars": 15587
-              }
+                "stars": 15603
+              },
+              "first_seen": "2026-08-29T01:43:37.111Z"
             }
           ],
           "description": "Protocols that connect agent backends to front ends and describe the UI that agents emit.",
@@ -175,11 +184,12 @@
                 "archived": false,
                 "id": 655515393,
                 "language": "TypeScript",
-                "last_commit": "2026-08-28T01:04:45Z",
+                "last_commit": "2026-08-29T01:22:17Z",
                 "owner": "CopilotKit",
                 "repo": "CopilotKit",
-                "stars": 37081
-              }
+                "stars": 37094
+              },
+              "first_seen": "2026-08-29T01:43:37.111Z"
             },
             {
               "node_type": "item",
@@ -190,11 +200,12 @@
                 "archived": false,
                 "id": 722184017,
                 "language": "TypeScript",
-                "last_commit": "2026-08-28T01:54:44Z",
+                "last_commit": "2026-08-29T01:42:43Z",
                 "owner": "assistant-ui",
                 "repo": "assistant-ui",
-                "stars": 11889
-              }
+                "stars": 11906
+              },
+              "first_seen": "2026-08-29T01:43:37.111Z"
             },
             {
               "node_type": "item",
@@ -205,11 +216,12 @@
                 "archived": false,
                 "id": 815634288,
                 "language": "TypeScript",
-                "last_commit": "2026-08-27T21:45:35Z",
+                "last_commit": "2026-08-28T06:12:18Z",
                 "owner": "tambo-ai",
                 "repo": "tambo",
-                "stars": 11169
-              }
+                "stars": 11170
+              },
+              "first_seen": "2026-08-29T01:43:37.111Z"
             },
             {
               "node_type": "item",
@@ -220,11 +232,12 @@
                 "archived": false,
                 "id": 897268988,
                 "language": "TypeScript",
-                "last_commit": "2026-08-27T14:25:40Z",
+                "last_commit": "2026-08-28T18:43:30Z",
                 "owner": "thesysdev",
                 "repo": "openui",
-                "stars": 8474
-              }
+                "stars": 8480
+              },
+              "first_seen": "2026-08-29T01:43:37.111Z"
             },
             {
               "node_type": "item",
@@ -239,7 +252,8 @@
                 "owner": "liveloveapp",
                 "repo": "hashbrown",
                 "stars": 719
-              }
+              },
+              "first_seen": "2026-08-29T01:43:37.111Z"
             },
             {
               "node_type": "item",
@@ -254,7 +268,8 @@
                 "owner": "mdocui",
                 "repo": "mdocui",
                 "stars": 39
-              }
+              },
+              "first_seen": "2026-08-29T01:43:37.111Z"
             }
           ],
           "description": "Purpose-built for streaming AI-generated interfaces:",
@@ -275,8 +290,9 @@
                 "last_commit": "2026-07-21T14:38:54Z",
                 "owner": "BuilderIO",
                 "repo": "mitosis",
-                "stars": 13902
-              }
+                "stars": 13903
+              },
+              "first_seen": "2026-08-29T01:43:37.111Z"
             },
             {
               "node_type": "item",
@@ -287,11 +303,12 @@
                 "archived": false,
                 "id": 653589102,
                 "language": "Python",
-                "last_commit": "2026-08-27T17:23:56Z",
+                "last_commit": "2026-08-28T21:57:24Z",
                 "owner": "567-labs",
                 "repo": "instructor",
-                "stars": 13788
-              }
+                "stars": 13793
+              },
+              "first_seen": "2026-08-29T01:43:37.111Z"
             }
           ],
           "description": "Building blocks for reliable generation:",
@@ -318,8 +335,9 @@
                 "last_commit": "2026-08-27T09:06:50Z",
                 "owner": "wandb",
                 "repo": "openui",
-                "stars": 22520
-              }
+                "stars": 22521
+              },
+              "first_seen": "2026-08-29T01:43:37.111Z"
             },
             {
               "node_type": "item",
@@ -333,8 +351,9 @@
                 "last_commit": "2024-09-19T02:49:32Z",
                 "owner": "nraiden",
                 "repo": "openv0",
-                "stars": 3951
-              }
+                "stars": 3952
+              },
+              "first_seen": "2026-08-29T01:43:37.111Z"
             }
           ],
           "description": "\"Describe a component, get code.\"",
@@ -356,7 +375,8 @@
                 "owner": "nraiden",
                 "repo": "cofounder",
                 "stars": 6656
-              }
+              },
+              "first_seen": "2026-08-29T01:43:37.111Z"
             }
           ],
           "description": "\"Describe an app, get a deployable project.\"",
@@ -377,8 +397,9 @@
                 "last_commit": "2026-08-14T17:20:50Z",
                 "owner": "abi",
                 "repo": "screenshot-to-code",
-                "stars": 75109
-              }
+                "stars": 75581
+              },
+              "first_seen": "2026-08-29T01:43:37.111Z"
             }
           ],
           "description": "\"Convert visuals to working code.\"",
@@ -396,11 +417,12 @@
                 "archived": false,
                 "id": 952688112,
                 "language": "TypeScript",
-                "last_commit": "2026-08-27T23:15:08Z",
+                "last_commit": "2026-08-28T22:44:41Z",
                 "owner": "microsoft",
                 "repo": "playwright-mcp",
-                "stars": 36553
-              }
+                "stars": 36587
+              },
+              "first_seen": "2026-08-29T01:43:37.111Z"
             },
             {
               "node_type": "item",
@@ -414,8 +436,9 @@
                 "last_commit": "2026-08-07T04:58:42Z",
                 "owner": "GLips",
                 "repo": "Figma-Context-MCP",
-                "stars": 15723
-              }
+                "stars": 15730
+              },
+              "first_seen": "2026-08-29T01:43:37.111Z"
             },
             {
               "node_type": "item",
@@ -429,8 +452,9 @@
                 "last_commit": "2026-07-26T07:14:26Z",
                 "owner": "grab",
                 "repo": "cursor-talk-to-figma-mcp",
-                "stars": 6988
-              }
+                "stars": 6987
+              },
+              "first_seen": "2026-08-29T01:43:37.111Z"
             },
             {
               "node_type": "item",
@@ -444,8 +468,9 @@
                 "last_commit": "2026-07-31T23:27:33Z",
                 "owner": "21st-dev",
                 "repo": "magic-mcp",
-                "stars": 5738
-              }
+                "stars": 5746
+              },
+              "first_seen": "2026-08-29T01:43:37.111Z"
             },
             {
               "node_type": "item",
@@ -459,8 +484,9 @@
                 "last_commit": "2026-05-16T13:09:07Z",
                 "owner": "Jpisnice",
                 "repo": "shadcn-ui-mcp-server",
-                "stars": 2963
-              }
+                "stars": 2966
+              },
+              "first_seen": "2026-08-29T01:43:37.111Z"
             },
             {
               "node_type": "item",
@@ -474,8 +500,9 @@
                 "last_commit": "2026-08-21T11:28:52Z",
                 "owner": "storybookjs",
                 "repo": "mcp",
-                "stars": 269
-              }
+                "stars": 270
+              },
+              "first_seen": "2026-08-29T01:43:37.111Z"
             },
             {
               "node_type": "item",
@@ -490,7 +517,8 @@
                 "owner": "HelloGGX",
                 "repo": "shadcn-vue-mcp",
                 "stars": 108
-              }
+              },
+              "first_seen": "2026-08-29T01:43:37.111Z"
             }
           ],
           "description": "\"Model Context Protocol servers that improve AI UI generation.\"",
@@ -512,11 +540,12 @@
             "archived": false,
             "id": 16927692,
             "language": "JavaScript",
-            "last_commit": "2026-08-24T06:24:16Z",
+            "last_commit": "2026-08-28T22:08:32Z",
             "owner": "cure53",
             "repo": "DOMPurify",
-            "stars": 17345
-          }
+            "stars": 17346
+          },
+          "first_seen": "2026-08-29T01:43:37.111Z"
         },
         {
           "node_type": "item",
@@ -527,11 +556,12 @@
             "archived": false,
             "id": 609539715,
             "language": "Python",
-            "last_commit": "2026-08-27T22:12:11Z",
+            "last_commit": "2026-08-28T14:46:38Z",
             "owner": "e2b-dev",
             "repo": "E2B",
-            "stars": 13567
-          }
+            "stars": 13577
+          },
+          "first_seen": "2026-08-29T01:43:37.111Z"
         },
         {
           "node_type": "item",
@@ -545,8 +575,9 @@
             "last_commit": "2025-04-24T13:17:28Z",
             "owner": "codesandbox",
             "repo": "sandpack",
-            "stars": 6225
-          }
+            "stars": 6228
+          },
+          "first_seen": "2026-08-29T01:43:37.111Z"
         }
       ],
       "title": "Security & Sandboxing"
@@ -563,11 +594,12 @@
             "archived": false,
             "id": 633927609,
             "language": "TypeScript",
-            "last_commit": "2026-08-28T01:24:12Z",
+            "last_commit": "2026-08-29T01:29:47Z",
             "owner": "promptfoo",
             "repo": "promptfoo",
-            "stars": 24623
-          }
+            "stars": 24650
+          },
+          "first_seen": "2026-08-29T01:43:37.111Z"
         },
         {
           "node_type": "item",
@@ -581,8 +613,9 @@
             "last_commit": "2026-08-25T22:37:37Z",
             "owner": "NVIDIA",
             "repo": "garak",
-            "stars": 9048
-          }
+            "stars": 9066
+          },
+          "first_seen": "2026-08-29T01:43:37.111Z"
         },
         {
           "node_type": "item",
@@ -597,7 +630,8 @@
             "owner": "Azure",
             "repo": "PyRIT",
             "stars": 116
-          }
+          },
+          "first_seen": "2026-08-29T01:43:37.111Z"
         }
       ],
       "title": "Evaluation & Testing"
@@ -614,11 +648,12 @@
             "archived": false,
             "id": 245704608,
             "language": "TypeScript",
-            "last_commit": "2026-08-28T02:04:04Z",
+            "last_commit": "2026-08-29T00:59:43Z",
             "owner": "colinhacks",
             "repo": "zod",
-            "stars": 43544
-          }
+            "stars": 43556
+          },
+          "first_seen": "2026-08-29T01:43:37.111Z"
         },
         {
           "node_type": "item",
@@ -632,8 +667,9 @@
             "last_commit": "2026-05-21T17:08:04Z",
             "owner": "guidance-ai",
             "repo": "guidance",
-            "stars": 21722
-          }
+            "stars": 21730
+          },
+          "first_seen": "2026-08-29T01:43:37.111Z"
         },
         {
           "node_type": "item",
@@ -644,11 +680,12 @@
             "archived": false,
             "id": 615403340,
             "language": "Python",
-            "last_commit": "2026-08-28T02:05:23Z",
+            "last_commit": "2026-08-28T12:53:04Z",
             "owner": "dottxt-ai",
             "repo": "outlines",
-            "stars": 15704
-          }
+            "stars": 15708
+          },
+          "first_seen": "2026-08-29T01:43:37.111Z"
         }
       ],
       "title": "Schemas & Patterns"
@@ -671,7 +708,8 @@
                 "owner": "CommandCodeAI",
                 "repo": "langui",
                 "stars": 3144
-              }
+              },
+              "first_seen": "2026-08-29T01:43:37.111Z"
             },
             {
               "node_type": "item",
@@ -682,11 +720,12 @@
                 "archived": false,
                 "id": 988222683,
                 "language": "Vue",
-                "last_commit": "2026-08-27T16:31:03Z",
+                "last_commit": "2026-08-28T23:24:44Z",
                 "owner": "Simon-He95",
                 "repo": "markstream-vue",
-                "stars": 2968
-              }
+                "stars": 2969
+              },
+              "first_seen": "2026-08-29T01:43:37.111Z"
             },
             {
               "node_type": "item",
@@ -701,7 +740,8 @@
                 "owner": "antvis",
                 "repo": "GPT-Vis",
                 "stars": 776
-              }
+              },
+              "first_seen": "2026-08-29T01:43:37.111Z"
             }
           ],
           "description": "Components designed for LLM-powered apps:",
@@ -728,8 +768,9 @@
                 "last_commit": "2026-07-08T21:55:02Z",
                 "owner": "vercel",
                 "repo": "chatbot",
-                "stars": 20882
-              }
+                "stars": 20885
+              },
+              "first_seen": "2026-08-29T01:43:37.111Z"
             },
             {
               "node_type": "item",
@@ -740,11 +781,12 @@
                 "archived": false,
                 "id": 782539945,
                 "language": "TypeScript",
-                "last_commit": "2026-08-28T00:58:11Z",
+                "last_commit": "2026-08-28T23:01:15Z",
                 "owner": "miurla",
                 "repo": "morphic",
                 "stars": 9069
-              }
+              },
+              "first_seen": "2026-08-29T01:43:37.111Z"
             },
             {
               "node_type": "item",
@@ -759,7 +801,8 @@
                 "owner": "shobrook",
                 "repo": "termite",
                 "stars": 419
-              }
+              },
+              "first_seen": "2026-08-29T01:43:37.111Z"
             },
             {
               "node_type": "item",
@@ -774,7 +817,8 @@
                 "owner": "langchain-ai",
                 "repo": "langgraphjs-gen-ui-examples",
                 "stars": 402
-              }
+              },
+              "first_seen": "2026-08-29T01:43:37.111Z"
             },
             {
               "node_type": "item",
@@ -789,7 +833,8 @@
                 "owner": "bracesproul",
                 "repo": "gen-ui",
                 "stars": 293
-              }
+              },
+              "first_seen": "2026-08-29T01:43:37.111Z"
             }
           ],
           "description": null,
@@ -816,8 +861,9 @@
                 "last_commit": "2026-04-14T15:29:57Z",
                 "owner": "openai",
                 "repo": "evals",
-                "stars": 19288
-              }
+                "stars": 19297
+              },
+              "first_seen": "2026-08-29T01:43:37.111Z"
             },
             {
               "node_type": "item",
@@ -828,11 +874,12 @@
                 "archived": false,
                 "id": 309504885,
                 "language": "Python",
-                "last_commit": "2026-08-27T14:37:29Z",
+                "last_commit": "2026-08-28T22:53:42Z",
                 "owner": "truera",
                 "repo": "trulens",
                 "stars": 3526
-              }
+              },
+              "first_seen": "2026-08-29T01:43:37.111Z"
             }
           ],
           "description": null,
@@ -844,7 +891,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-28T02:08:34.174Z",
+    "last_updated": "2026-08-29T01:43:37.111Z",
     "original_repository_info": {
       "archived": false,
       "id": 1117387225,
