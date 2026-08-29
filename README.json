@@ -10,12 +10,20 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Code repo for \"WebArena: A Realistic Web Environment for Building Autonomous Agents\"",
+            "homepage": "https://webarena.dev",
             "id": 670111980,
             "language": "Python",
+            "license": "Apache-2.0",
             "last_commit": "2025-11-26T21:16:00Z",
+            "open_issues": 102,
             "owner": "web-arena-x",
             "repo": "webarena",
-            "stars": 1590
+            "stars": 1590,
+            "topics": [
+              "agent",
+              "nlp"
+            ]
           },
           "first_seen": "2026-08-29T01:43:37.111Z"
         },
@@ -26,12 +34,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "[NeurIPS'23 Spotlight] \"Mind2Web: Towards a Generalist Agent for the Web\" -- the first LLM-based web agent and benchmark for generalist web agents",
+            "homepage": "https://osu-nlp-group.github.io/Mind2Web/",
             "id": 631014879,
             "language": "Jupyter Notebook",
+            "license": "MIT",
             "last_commit": "2025-11-05T00:38:41Z",
+            "open_issues": 12,
             "owner": "OSU-NLP-Group",
             "repo": "Mind2Web",
-            "stars": 1022
+            "stars": 1022,
+            "topics": []
           },
           "first_seen": "2026-08-29T01:43:37.111Z"
         },
@@ -42,12 +55,21 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "VisualWebArena is a benchmark for multimodal agents.",
+            "homepage": "https://jykoh.com/vwa",
             "id": 747496066,
             "language": "Python",
+            "license": "MIT",
             "last_commit": "2024-11-09T00:47:00Z",
+            "open_issues": 27,
             "owner": "web-arena-x",
             "repo": "visualwebarena",
-            "stars": 485
+            "stars": 485,
+            "topics": [
+              "agents",
+              "llm",
+              "multimodal"
+            ]
           },
           "first_seen": "2026-08-29T01:43:37.111Z"
         },
@@ -58,12 +80,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A collection of reinforcement learning environments for simple web interaction tasks",
+            "homepage": "https://miniwob.farama.org/",
             "id": 122572017,
             "language": "HTML",
+            "license": "MIT",
             "last_commit": "2026-08-13T18:55:32Z",
+            "open_issues": 3,
             "owner": "Farama-Foundation",
             "repo": "MiniWoB-plusplus",
-            "stars": 398
+            "stars": 398,
+            "topics": []
           },
           "first_seen": "2026-08-29T01:43:37.111Z"
         }
@@ -82,12 +109,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Model Context Protocol Servers",
+                "homepage": "https://modelcontextprotocol.io",
                 "id": 890668799,
                 "language": "TypeScript",
+                "license": "NOASSERTION",
                 "last_commit": "2026-08-28T17:58:20Z",
+                "open_issues": 506,
                 "owner": "modelcontextprotocol",
                 "repo": "servers",
-                "stars": 89937
+                "stars": 89940,
+                "topics": []
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
             },
@@ -98,12 +130,24 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "UI over MCP. Create next-gen UI experiences with the protocol and SDK!",
+                "homepage": "https://mcpui.dev",
                 "id": 983113668,
                 "language": "TypeScript",
+                "license": "Apache-2.0",
                 "last_commit": "2026-07-08T04:21:59Z",
+                "open_issues": 60,
                 "owner": "MCP-UI-Org",
                 "repo": "mcp-ui",
-                "stars": 5113
+                "stars": 5113,
+                "topics": [
+                  "ai",
+                  "frontend",
+                  "llm",
+                  "mcp",
+                  "ui",
+                  "web"
+                ]
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
             },
@@ -114,12 +158,24 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Official repo for spec & SDK of MCP Apps protocol - standard for UIs embedded AI chatbots, served by MCP servers",
+                "homepage": "https://apps.extensions.modelcontextprotocol.io/",
                 "id": 1101234405,
                 "language": "TypeScript",
+                "license": "NOASSERTION",
                 "last_commit": "2026-08-12T15:04:55Z",
+                "open_issues": 208,
                 "owner": "modelcontextprotocol",
                 "repo": "ext-apps",
-                "stars": 2769
+                "stars": 2770,
+                "topics": [
+                  "ai",
+                  "apps",
+                  "mcp",
+                  "mcp-apps",
+                  "modelcontextprotocol",
+                  "ui"
+                ]
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
             }
@@ -137,12 +193,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": null,
+                "homepage": "https://a2ui.org/",
                 "id": 1063641074,
                 "language": "TypeScript",
-                "last_commit": "2026-08-29T00:05:49Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-29T02:34:10Z",
+                "open_issues": 350,
                 "owner": "a2ui-project",
                 "repo": "a2ui",
-                "stars": 16230
+                "stars": 16229,
+                "topics": []
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
             },
@@ -153,12 +214,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+                "homepage": "https://ag-ui.com",
                 "id": 979392131,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-08-28T21:52:12Z",
+                "open_issues": 333,
                 "owner": "ag-ui-protocol",
                 "repo": "ag-ui",
-                "stars": 15603
+                "stars": 15607,
+                "topics": [
+                  "ag-ui-protocol",
+                  "agent-frontend",
+                  "agent-ui",
+                  "agentic-workflow",
+                  "ai-agents"
+                ]
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
             }
@@ -182,12 +254,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI Protocol",
+                "homepage": "https://docs.copilotkit.ai",
                 "id": 655515393,
                 "language": "TypeScript",
-                "last_commit": "2026-08-29T01:22:17Z",
+                "license": "MIT",
+                "last_commit": "2026-08-29T04:23:23Z",
+                "open_issues": 364,
                 "owner": "CopilotKit",
                 "repo": "CopilotKit",
-                "stars": 37094
+                "stars": 37094,
+                "topics": [
+                  "agent",
+                  "agent-native",
+                  "agentic-ai",
+                  "agents",
+                  "ai",
+                  "ai-agent",
+                  "ai-assistant",
+                  "assistant",
+                  "assistant-chat-bots",
+                  "copilot",
+                  "copilot-chat",
+                  "generative-ui",
+                  "js",
+                  "llm",
+                  "nextjs",
+                  "open-source",
+                  "react",
+                  "reactjs",
+                  "ts",
+                  "typescript"
+                ]
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
             },
@@ -198,12 +296,28 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Typescript/React Library for AI Chat💬🚀",
+                "homepage": "https://www.assistant-ui.com",
                 "id": 722184017,
                 "language": "TypeScript",
-                "last_commit": "2026-08-29T01:42:43Z",
+                "license": "MIT",
+                "last_commit": "2026-08-29T04:58:21Z",
+                "open_issues": 87,
                 "owner": "assistant-ui",
                 "repo": "assistant-ui",
-                "stars": 11906
+                "stars": 11908,
+                "topics": [
+                  "ai-chatbot",
+                  "base-ui",
+                  "chatbot",
+                  "conversational-ai",
+                  "copilot",
+                  "radix-ui",
+                  "react-chatbot",
+                  "shadcn",
+                  "ui-components",
+                  "vercel-ai-sdk"
+                ]
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
             },
@@ -214,12 +328,29 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Generative UI SDK for React",
+                "homepage": "https://tambo.co",
                 "id": 815634288,
                 "language": "TypeScript",
+                "license": "MIT",
                 "last_commit": "2026-08-28T06:12:18Z",
+                "open_issues": 38,
                 "owner": "tambo-ai",
                 "repo": "tambo",
-                "stars": 11170
+                "stars": 11170,
+                "topics": [
+                  "agent",
+                  "agents",
+                  "ai",
+                  "assistant",
+                  "assistant-chat-bots",
+                  "generative-ui",
+                  "js",
+                  "react",
+                  "reactjs",
+                  "ui",
+                  "ui-components"
+                ]
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
             },
@@ -230,12 +361,26 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "The Open Standard for Generative UI",
+                "homepage": "https://www.openui.com",
                 "id": 897268988,
                 "language": "TypeScript",
+                "license": "MIT",
                 "last_commit": "2026-08-28T18:43:30Z",
+                "open_issues": 144,
                 "owner": "thesysdev",
                 "repo": "openui",
-                "stars": 8480
+                "stars": 8481,
+                "topics": [
+                  "agent",
+                  "agents",
+                  "ai",
+                  "generative-ui",
+                  "help-wanted",
+                  "javascript",
+                  "llm",
+                  "looking-for-contributors"
+                ]
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
             },
@@ -246,12 +391,25 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Hashbrown is a framework for building agents that run the browser. Built for Angular and React.",
+                "homepage": "https://www.hashbrown.dev",
                 "id": 955577327,
                 "language": "TypeScript",
+                "license": "NOASSERTION",
                 "last_commit": "2026-08-27T14:49:00Z",
+                "open_issues": 8,
                 "owner": "liveloveapp",
                 "repo": "hashbrown",
-                "stars": 719
+                "stars": 719,
+                "topics": [
+                  "ai",
+                  "angular",
+                  "llms",
+                  "react",
+                  "typescript",
+                  "ui",
+                  "ux"
+                ]
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
             },
@@ -262,12 +420,26 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Generative UI for LLMs using Markdoc {% %} tag syntax",
+                "homepage": "https://mdocui.github.io",
                 "id": 1193553519,
                 "language": "TypeScript",
+                "license": "MIT",
                 "last_commit": "2026-04-11T08:01:37Z",
+                "open_issues": 0,
                 "owner": "mdocui",
                 "repo": "mdocui",
-                "stars": 39
+                "stars": 39,
+                "topics": [
+                  "ai",
+                  "generative-ui",
+                  "llm",
+                  "markdoc",
+                  "mdocui",
+                  "react",
+                  "streaming",
+                  "ui-components"
+                ]
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
             }
@@ -285,12 +457,34 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Write components once, run everywhere. Compiles to React, Vue, Qwik, Solid, Angular, Svelte, and more. ",
+                "homepage": "https://mitosis.builder.io",
                 "id": 310456670,
                 "language": "TypeScript",
+                "license": "MIT",
                 "last_commit": "2026-07-21T14:38:54Z",
+                "open_issues": 176,
                 "owner": "BuilderIO",
                 "repo": "mitosis",
-                "stars": 13903
+                "stars": 13903,
+                "topics": [
+                  "angular",
+                  "builder",
+                  "compiler",
+                  "declarative",
+                  "figma",
+                  "jsx",
+                  "jsx-lite",
+                  "liquid",
+                  "no-code",
+                  "react",
+                  "shopify",
+                  "solid",
+                  "solidjs",
+                  "svelte",
+                  "visual",
+                  "vue"
+                ]
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
             },
@@ -301,12 +495,24 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "structured outputs for llms ",
+                "homepage": "https://python.useinstructor.com/",
                 "id": 653589102,
                 "language": "Python",
-                "last_commit": "2026-08-28T21:57:24Z",
+                "license": "MIT",
+                "last_commit": "2026-08-29T02:44:55Z",
+                "open_issues": 39,
                 "owner": "567-labs",
                 "repo": "instructor",
-                "stars": 13793
+                "stars": 13795,
+                "topics": [
+                  "openai",
+                  "openai-function-calli",
+                  "openai-functions",
+                  "pydantic-v2",
+                  "python",
+                  "validation"
+                ]
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
             }
@@ -330,12 +536,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "OpenUI let's you describe UI using your imagination, then see it rendered live.",
+                "homepage": "https://openui.fly.dev",
                 "id": 773544702,
                 "language": "TypeScript",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-27T09:06:50Z",
+                "open_issues": 89,
                 "owner": "wandb",
                 "repo": "openui",
-                "stars": 22521
+                "stars": 22521,
+                "topics": [
+                  "ai",
+                  "generative-ai",
+                  "html-css-javascript",
+                  "tailwindcss"
+                ]
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
             },
@@ -346,12 +562,25 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "AI generated UI components",
+                "homepage": null,
                 "id": 693743670,
                 "language": "TypeScript",
+                "license": "MIT",
                 "last_commit": "2024-09-19T02:49:32Z",
+                "open_issues": 35,
                 "owner": "nraiden",
                 "repo": "openv0",
-                "stars": 3952
+                "stars": 3952,
+                "topics": [
+                  "ai",
+                  "generative",
+                  "javascript",
+                  "react",
+                  "tailwind",
+                  "typescript",
+                  "ui"
+                ]
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
             }
@@ -369,12 +598,29 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "ai-generated apps , full stack + generative UI",
+                "homepage": "https://cofounder.openinterface.ai/",
                 "id": 859600320,
                 "language": "TypeScript",
+                "license": "MIT",
                 "last_commit": "2024-11-08T20:47:03Z",
+                "open_issues": 68,
                 "owner": "nraiden",
                 "repo": "cofounder",
-                "stars": 6656
+                "stars": 6655,
+                "topics": [
+                  "ai",
+                  "api",
+                  "design",
+                  "generative",
+                  "javascript",
+                  "postgresql",
+                  "react",
+                  "tailwind",
+                  "typescript",
+                  "ui",
+                  "vite"
+                ]
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
             }
@@ -392,12 +638,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
+                "homepage": "https://screenshottocode.com",
                 "id": 718741813,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-08-14T17:20:50Z",
+                "open_issues": 131,
                 "owner": "abi",
                 "repo": "screenshot-to-code",
-                "stars": 75581
+                "stars": 75646,
+                "topics": []
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
             }
@@ -415,12 +666,20 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Playwright MCP server",
+                "homepage": "https://www.npmjs.com/package/@playwright/mcp",
                 "id": 952688112,
                 "language": "TypeScript",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-28T22:44:41Z",
+                "open_issues": 4,
                 "owner": "microsoft",
                 "repo": "playwright-mcp",
-                "stars": 36587
+                "stars": 36592,
+                "topics": [
+                  "mcp",
+                  "playwright"
+                ]
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
             },
@@ -431,12 +690,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "MCP server to provide Figma layout information to AI coding agents like Cursor",
+                "homepage": "https://www.framelink.ai/",
                 "id": 931892749,
                 "language": "TypeScript",
+                "license": "MIT",
                 "last_commit": "2026-08-07T04:58:42Z",
+                "open_issues": 23,
                 "owner": "GLips",
                 "repo": "Figma-Context-MCP",
-                "stars": 15730
+                "stars": 15731,
+                "topics": [
+                  "ai",
+                  "cursor",
+                  "figma",
+                  "mcp",
+                  "typescript"
+                ]
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
             },
@@ -447,12 +717,34 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "TalkToFigma: MCP integration between AI Agent (Cursor, Claude Code, Codex) and Figma, allowing Agentic AI to communicate with Figma for reading designs and modifying them programmatically.",
+                "homepage": "https://www.figma.com/community/plugin/1485687494525374295/cursor-talk-to-figma-mcp-plugin",
                 "id": 949523404,
                 "language": "JavaScript",
+                "license": "MIT",
                 "last_commit": "2026-07-26T07:14:26Z",
+                "open_issues": 88,
                 "owner": "grab",
                 "repo": "cursor-talk-to-figma-mcp",
-                "stars": 6987
+                "stars": 6987,
+                "topics": [
+                  "agent",
+                  "agentic",
+                  "agentic-ai",
+                  "ai",
+                  "ai-agents",
+                  "automation",
+                  "claude-code",
+                  "codex",
+                  "cursor",
+                  "design",
+                  "figma",
+                  "generative-ai",
+                  "llm",
+                  "llms",
+                  "mcp",
+                  "model-context-protocol"
+                ]
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
             },
@@ -463,12 +755,26 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "It's like v0, but in your Cursor / Claude Code / Windsurf: search 10,000+ React/Tailwind components, generate new UI with AI, and publish your own — right from your editor. Magic MCP is now the 21st MCP; this package keeps old configs working. Setup: 21st.dev/mcp",
+                "homepage": "https://21st.dev/mcp",
                 "id": 935450522,
                 "language": "JavaScript",
+                "license": null,
                 "last_commit": "2026-07-31T23:27:33Z",
+                "open_issues": 1,
                 "owner": "21st-dev",
                 "repo": "magic-mcp",
-                "stars": 5746
+                "stars": 5747,
+                "topics": [
+                  "21st",
+                  "claude",
+                  "cursor",
+                  "mcp",
+                  "model-context-protocol",
+                  "react",
+                  "tailwindcss",
+                  "ui-components"
+                ]
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
             },
@@ -479,12 +785,37 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A mcp server to allow LLMS gain context about shadcn ui component structure,usage and installation,compaitable with react,svelte 5,vue & React Native",
+                "homepage": null,
                 "id": 961975051,
                 "language": "TypeScript",
+                "license": "MIT",
                 "last_commit": "2026-05-16T13:09:07Z",
+                "open_issues": 3,
                 "owner": "Jpisnice",
                 "repo": "shadcn-ui-mcp-server",
-                "stars": 2966
+                "stars": 2966,
+                "topics": [
+                  "ai",
+                  "expo",
+                  "mcp",
+                  "modelcontextprotocol",
+                  "nextjs",
+                  "npm",
+                  "npm-package",
+                  "npx",
+                  "react",
+                  "react-native",
+                  "shadcn-ui",
+                  "svelte",
+                  "sveltekit",
+                  "ts",
+                  "typescript",
+                  "ui",
+                  "vue",
+                  "vuejs",
+                  "webdev"
+                ]
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
             },
@@ -495,12 +826,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "🤖",
+                "homepage": "https://storybook-evals.vercel.app",
                 "id": 1042284426,
                 "language": "TypeScript",
+                "license": "MIT",
                 "last_commit": "2026-08-21T11:28:52Z",
+                "open_issues": 48,
                 "owner": "storybookjs",
                 "repo": "mcp",
-                "stars": 270
+                "stars": 270,
+                "topics": []
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
             },
@@ -511,12 +847,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Shadcn-vue and Tailwind CSS are essential for component development, offering developers a fast and high-quality experience in Vue component development.",
+                "homepage": null,
                 "id": 960961801,
                 "language": "TypeScript",
+                "license": "Apache-2.0",
                 "last_commit": "2025-11-16T08:53:56Z",
+                "open_issues": 2,
                 "owner": "HelloGGX",
                 "repo": "shadcn-vue-mcp",
-                "stars": 108
+                "stars": 108,
+                "topics": []
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
             }
@@ -538,12 +879,29 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "DOMPurify - a DOM-only, super-fast, uber-tolerant XSS sanitizer for HTML, MathML and SVG. DOMPurify works with a secure default, but offers a lot of configurability and hooks. Demo:",
+            "homepage": "https://cure53.de/purify",
             "id": 16927692,
             "language": "JavaScript",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-28T22:08:32Z",
+            "open_issues": 7,
             "owner": "cure53",
             "repo": "DOMPurify",
-            "stars": 17346
+            "stars": 17346,
+            "topics": [
+              "cross-site-scripting",
+              "dom",
+              "dompurify",
+              "html",
+              "javascript",
+              "mathml",
+              "prevent-xss-attacks",
+              "sanitizer",
+              "security",
+              "svg",
+              "xss"
+            ]
           },
           "first_seen": "2026-08-29T01:43:37.111Z"
         },
@@ -554,12 +912,36 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Open-source, secure environment with real-world tools for enterprise-grade agents.",
+            "homepage": "https://docs.e2b.dev/?utm_source=github&utm_medium=referral&utm_campaign=repo_website&utm_content=e2b",
             "id": 609539715,
             "language": "Python",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-28T14:46:38Z",
+            "open_issues": 47,
             "owner": "e2b-dev",
             "repo": "E2B",
-            "stars": 13577
+            "stars": 13577,
+            "topics": [
+              "agent",
+              "ai",
+              "ai-agent",
+              "ai-agents",
+              "code-interpreter",
+              "copilot",
+              "development",
+              "devtools",
+              "gpt",
+              "gpt-4",
+              "javascript",
+              "llm",
+              "nextjs",
+              "openai",
+              "python",
+              "react",
+              "software",
+              "typescript"
+            ]
           },
           "first_seen": "2026-08-29T01:43:37.111Z"
         },
@@ -570,12 +952,25 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A component toolkit for creating live-running code editing experiences, using the power of CodeSandbox.",
+            "homepage": "https://sandpack.codesandbox.io",
             "id": 340299463,
             "language": "TypeScript",
+            "license": "Apache-2.0",
             "last_commit": "2025-04-24T13:17:28Z",
+            "open_issues": 159,
             "owner": "codesandbox",
             "repo": "sandpack",
-            "stars": 6228
+            "stars": 6228,
+            "topics": [
+              "documentation",
+              "hacktoberfest",
+              "live-coding",
+              "playground",
+              "reactjs",
+              "sandbox",
+              "sandpack"
+            ]
           },
           "first_seen": "2026-08-29T01:43:37.111Z"
         }
@@ -592,12 +987,36 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD integration.  Used by OpenAI and Anthropic.",
+            "homepage": "https://promptfoo.dev",
             "id": 633927609,
             "language": "TypeScript",
-            "last_commit": "2026-08-29T01:29:47Z",
+            "license": "MIT",
+            "last_commit": "2026-08-29T02:53:58Z",
+            "open_issues": 540,
             "owner": "promptfoo",
             "repo": "promptfoo",
-            "stars": 24650
+            "stars": 24651,
+            "topics": [
+              "ci",
+              "ci-cd",
+              "cicd",
+              "evaluation",
+              "evaluation-framework",
+              "llm",
+              "llm-eval",
+              "llm-evaluation",
+              "llm-evaluation-framework",
+              "llmops",
+              "pentesting",
+              "prompt-engineering",
+              "prompt-testing",
+              "prompts",
+              "rag",
+              "red-teaming",
+              "testing",
+              "vulnerability-scanners"
+            ]
           },
           "first_seen": "2026-08-29T01:43:37.111Z"
         },
@@ -608,12 +1027,23 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "the LLM vulnerability scanner",
+            "homepage": "https://discord.gg/uVch4puUCs",
             "id": 639097338,
             "language": "Python",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-25T22:37:37Z",
+            "open_issues": 408,
             "owner": "NVIDIA",
             "repo": "garak",
-            "stars": 9066
+            "stars": 9066,
+            "topics": [
+              "ai",
+              "llm-evaluation",
+              "llm-security",
+              "security-scanners",
+              "vulnerability-assessment"
+            ]
           },
           "first_seen": "2026-08-29T01:43:37.111Z"
         },
@@ -624,12 +1054,22 @@
           "children": [],
           "repo_info": {
             "archived": true,
+            "description": "The Python Risk Identification Tool for generative AI (PyRIT) is an open source framework built to empower security professionals and engineers to proactively identify risks in generative AI systems.",
+            "homepage": "https://microsoft.github.io/PyRIT",
             "id": 1191146757,
             "language": null,
+            "license": "MIT",
             "last_commit": "2026-03-25T01:18:52Z",
+            "open_issues": 0,
             "owner": "Azure",
             "repo": "PyRIT",
-            "stars": 116
+            "stars": 116,
+            "topics": [
+              "ai-red-team",
+              "generative-ai",
+              "red-team-tools",
+              "responsible-ai"
+            ]
           },
           "first_seen": "2026-08-29T01:43:37.111Z"
         }
@@ -646,12 +1086,23 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "TypeScript-first schema validation with static type inference",
+            "homepage": "https://zod.dev",
             "id": 245704608,
             "language": "TypeScript",
+            "license": "MIT",
             "last_commit": "2026-08-29T00:59:43Z",
+            "open_issues": 76,
             "owner": "colinhacks",
             "repo": "zod",
-            "stars": 43556
+            "stars": 43556,
+            "topics": [
+              "runtime-validation",
+              "schema-validation",
+              "static-types",
+              "type-inference",
+              "typescript"
+            ]
           },
           "first_seen": "2026-08-29T01:43:37.111Z"
         },
@@ -662,12 +1113,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A guidance language for controlling large language models.",
+            "homepage": null,
             "id": 564443255,
             "language": "Jupyter Notebook",
+            "license": "MIT",
             "last_commit": "2026-05-21T17:08:04Z",
+            "open_issues": 321,
             "owner": "guidance-ai",
             "repo": "guidance",
-            "stars": 21730
+            "stars": 21730,
+            "topics": []
           },
           "first_seen": "2026-08-29T01:43:37.111Z"
         },
@@ -678,12 +1134,26 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Structured Outputs",
+            "homepage": "https://dottxt-ai.github.io/outlines/",
             "id": 615403340,
             "language": "Python",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-28T12:53:04Z",
+            "open_issues": 163,
             "owner": "dottxt-ai",
             "repo": "outlines",
-            "stars": 15708
+            "stars": 15710,
+            "topics": [
+              "cfg",
+              "generative-ai",
+              "json",
+              "llms",
+              "prompt-engineering",
+              "regex",
+              "structured-generation",
+              "symbolic-ai"
+            ]
           },
           "first_seen": "2026-08-29T01:43:37.111Z"
         }
@@ -702,12 +1172,27 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "UI for your AI. Open Source Tailwind components tailored for your GPT, generative AI, and LLM projects.",
+                "homepage": "https://LangUI.dev",
                 "id": 644862510,
                 "language": "HTML",
+                "license": "MIT",
                 "last_commit": "2024-07-10T03:00:23Z",
+                "open_issues": 6,
                 "owner": "CommandCodeAI",
                 "repo": "langui",
-                "stars": 3144
+                "stars": 3144,
+                "topics": [
+                  "chat-ui",
+                  "chatgpt",
+                  "chatgpt-ui",
+                  "gpt",
+                  "gpt-3",
+                  "gpt-4",
+                  "gpt-ui",
+                  "lang-chain",
+                  "lang-ui"
+                ]
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
             },
@@ -718,12 +1203,37 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Multi-framework streaming Markdown renderers for AI apps: Vue/Nuxt, React/Next.js, Svelte, and Angular, with Mermaid, KaTeX, stream-diffs code blocks, safe HTML, and low-jitter updates.",
+                "homepage": "https://markstream.simonhe.me",
                 "id": 988222683,
                 "language": "Vue",
+                "license": "MIT",
                 "last_commit": "2026-08-28T23:24:44Z",
+                "open_issues": 2,
                 "owner": "Simon-He95",
                 "repo": "markstream-vue",
-                "stars": 2969
+                "stars": 2969,
+                "topics": [
+                  "ai",
+                  "ai-chat",
+                  "angular",
+                  "katex",
+                  "llm",
+                  "markdown",
+                  "markdown-renderer",
+                  "markstream",
+                  "mermaid",
+                  "nextjs",
+                  "nuxt",
+                  "octane",
+                  "react",
+                  "safe-html",
+                  "stream-markdown",
+                  "streaming-markdown",
+                  "svelte",
+                  "vitepress",
+                  "vue"
+                ]
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
             },
@@ -734,12 +1244,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "🤖 GPT Vision, Visualization for AI Friendly! AntV's entry for AI, and 100% generated by AI.",
+                "homepage": "https://gpt-vis.antv.vision",
                 "id": 718188122,
                 "language": "TypeScript",
+                "license": "MIT",
                 "last_commit": "2026-06-26T02:18:29Z",
+                "open_issues": 4,
                 "owner": "antvis",
                 "repo": "GPT-Vis",
-                "stars": 776
+                "stars": 776,
+                "topics": [
+                  "antvis",
+                  "gpts",
+                  "llm",
+                  "lui",
+                  "visualization"
+                ]
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
             }
@@ -763,12 +1284,25 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A full-featured, hackable Next.js AI chatbot built by Vercel",
+                "homepage": "https://chatbot.ai-sdk.dev",
                 "id": 642917329,
                 "language": "TypeScript",
+                "license": "NOASSERTION",
                 "last_commit": "2026-07-08T21:55:02Z",
+                "open_issues": 28,
                 "owner": "vercel",
                 "repo": "chatbot",
-                "stars": 20885
+                "stars": 20885,
+                "topics": [
+                  "ai",
+                  "chatgpt",
+                  "nextjs",
+                  "react",
+                  "redis",
+                  "shadcn-ui",
+                  "vercel"
+                ]
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
             },
@@ -779,12 +1313,30 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "An AI-powered search engine with a generative UI",
+                "homepage": "https://chat.morphic.sh",
                 "id": 782539945,
                 "language": "TypeScript",
-                "last_commit": "2026-08-28T23:01:15Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-29T02:23:48Z",
+                "open_issues": 56,
                 "owner": "miurla",
                 "repo": "morphic",
-                "stars": 9069
+                "stars": 9069,
+                "topics": [
+                  "generative-ai",
+                  "generative-ui",
+                  "nextjs",
+                  "ollama",
+                  "react",
+                  "searxng",
+                  "shadcn-ui",
+                  "tailwindcss",
+                  "tavily",
+                  "typescript",
+                  "upstash",
+                  "vercel-ai-sdk"
+                ]
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
             },
@@ -795,12 +1347,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Generative UI in your terminal",
+                "homepage": null,
                 "id": 826127627,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2025-01-06T01:54:56Z",
+                "open_issues": 7,
                 "owner": "shobrook",
                 "repo": "termite",
-                "stars": 419
+                "stars": 419,
+                "topics": [
+                  "code-generation",
+                  "generative-ui",
+                  "terminal-app",
+                  "tui"
+                ]
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
             },
@@ -811,12 +1373,17 @@
               "children": [],
               "repo_info": {
                 "archived": true,
+                "description": "A collection of generative UI agents written with LangGraph.js",
+                "homepage": null,
                 "id": 946160034,
                 "language": "TypeScript",
+                "license": "MIT",
                 "last_commit": "2025-05-01T15:55:49Z",
+                "open_issues": 12,
                 "owner": "langchain-ai",
                 "repo": "langgraphjs-gen-ui-examples",
-                "stars": 402
+                "stars": 402,
+                "topics": []
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
             },
@@ -827,12 +1394,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "🧬 Generative UI web application built with LangChain.js, AI SDK & Next.js",
+                "homepage": null,
                 "id": 807371448,
                 "language": "TypeScript",
+                "license": null,
                 "last_commit": "2024-08-01T17:13:07Z",
+                "open_issues": 3,
                 "owner": "bracesproul",
                 "repo": "gen-ui",
-                "stars": 293
+                "stars": 293,
+                "topics": []
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
             }
@@ -856,12 +1428,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Evals is a framework for evaluating LLMs and LLM systems, and an open-source registry of benchmarks.",
+                "homepage": null,
                 "id": 592489166,
                 "language": "Python",
+                "license": "NOASSERTION",
                 "last_commit": "2026-04-14T15:29:57Z",
+                "open_issues": 324,
                 "owner": "openai",
                 "repo": "evals",
-                "stars": 19297
+                "stars": 19297,
+                "topics": []
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
             },
@@ -872,12 +1449,31 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Evaluation and Tracking for LLM Experiments and AI Agents",
+                "homepage": "https://www.trulens.org/",
                 "id": 309504885,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-08-28T22:53:42Z",
+                "open_issues": 61,
                 "owner": "truera",
                 "repo": "trulens",
-                "stars": 3526
+                "stars": 3526,
+                "topics": [
+                  "agent-evaluation",
+                  "agentops",
+                  "ai-agents",
+                  "ai-monitoring",
+                  "ai-observability",
+                  "evals",
+                  "explainable-ml",
+                  "llm-eval",
+                  "llm-evaluation",
+                  "llmops",
+                  "llms",
+                  "machine-learning",
+                  "neural-networks"
+                ]
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
             }
@@ -891,15 +1487,29 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-29T01:43:37.111Z",
+    "last_updated": "2026-08-29T05:01:16.429Z",
     "original_repository_info": {
       "archived": false,
+      "description": "A curated list of resources for AI-generated user interfaces — systems where LLMs dynamically create, compose, and render UI components.",
+      "homepage": null,
       "id": 1117387225,
       "language": null,
+      "license": "CC-BY-4.0",
       "last_commit": "2026-08-14T08:56:28Z",
+      "open_issues": 2,
       "owner": "narrowin",
       "repo": "awesome-generative-ui",
-      "stars": 106
+      "stars": 106,
+      "topics": [
+        "awesome",
+        "awesome-list",
+        "experiment",
+        "frontend-development",
+        "generative-ai",
+        "research",
+        "ui",
+        "ui-design"
+      ]
     },
     "original_repository_sha": "d9079f48e36f82ccfd2048ac73a856c3283084e8",
     "enhanced_repository": "enhansome/enhansome-generative-ui",
