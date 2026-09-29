@@ -43,7 +43,7 @@
             "open_issues": 14,
             "owner": "OSU-NLP-Group",
             "repo": "Mind2Web",
-            "stars": 1029,
+            "stars": 1030,
             "topics": []
           },
           "first_seen": "2026-08-29T01:43:37.111Z"
@@ -89,7 +89,7 @@
             "open_issues": 3,
             "owner": "Farama-Foundation",
             "repo": "MiniWoB-plusplus",
-            "stars": 401,
+            "stars": 402,
             "topics": []
           },
           "first_seen": "2026-08-29T01:43:37.111Z"
@@ -114,11 +114,11 @@
                 "id": 890668799,
                 "language": "TypeScript",
                 "license": "NOASSERTION",
-                "last_commit": "2026-09-28T04:06:36Z",
-                "open_issues": 589,
+                "last_commit": "2026-09-29T13:39:48Z",
+                "open_issues": 558,
                 "owner": "modelcontextprotocol",
                 "repo": "servers",
-                "stars": 90648,
+                "stars": 90684,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
@@ -139,7 +139,7 @@
                 "open_issues": 65,
                 "owner": "MCP-UI-Org",
                 "repo": "mcp-ui",
-                "stars": 5185,
+                "stars": 5187,
                 "topics": [
                   "ai",
                   "frontend",
@@ -167,7 +167,7 @@
                 "open_issues": 218,
                 "owner": "modelcontextprotocol",
                 "repo": "ext-apps",
-                "stars": 2878,
+                "stars": 2880,
                 "topics": [
                   "ai",
                   "apps",
@@ -198,11 +198,11 @@
                 "id": 1063641074,
                 "language": "TypeScript",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-28T23:00:58Z",
-                "open_issues": 404,
+                "last_commit": "2026-09-29T21:56:55Z",
+                "open_issues": 411,
                 "owner": "a2ui-project",
                 "repo": "a2ui",
-                "stars": 16545,
+                "stars": 16555,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
@@ -219,11 +219,11 @@
                 "id": 979392131,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-09-28T18:09:36Z",
-                "open_issues": 411,
+                "last_commit": "2026-09-29T21:03:30Z",
+                "open_issues": 417,
                 "owner": "ag-ui-protocol",
                 "repo": "ag-ui",
-                "stars": 16089,
+                "stars": 16108,
                 "topics": [
                   "ag-ui-protocol",
                   "agent-frontend",
@@ -259,11 +259,11 @@
                 "id": 655515393,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-09-28T23:05:17Z",
-                "open_issues": 315,
+                "last_commit": "2026-09-29T22:04:36Z",
+                "open_issues": 309,
                 "owner": "CopilotKit",
                 "repo": "CopilotKit",
-                "stars": 37584,
+                "stars": 37605,
                 "topics": [
                   "agent",
                   "agent-native",
@@ -291,6 +291,27 @@
             },
             {
               "node_type": "item",
+              "title": "json-render",
+              "description": "Vercel Labs. Apache-2.0 framework where models emit JSON constrained to a catalog of predefined components and actions, with renderers for React, React Native, Vue, Svelte, and Solid plus PDF, email, and video targets.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "The Generative UI framework",
+                "homepage": "https://json-render.dev",
+                "id": 1134411737,
+                "language": "TypeScript",
+                "license": "Apache-2.0",
+                "last_commit": "2026-09-25T19:58:01Z",
+                "open_issues": 121,
+                "owner": "vercel-labs",
+                "repo": "json-render",
+                "stars": 18425,
+                "topics": []
+              },
+              "first_seen": "2026-09-29T22:10:28.019Z"
+            },
+            {
+              "node_type": "item",
               "title": "assistant-ui",
               "description": "TypeScript/React primitives for AI chat with a first-class generative-UI primitive that renders agent-described components from a consumer-provided allowlist.",
               "children": [],
@@ -301,11 +322,11 @@
                 "id": 722184017,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-09-28T21:57:57Z",
-                "open_issues": 414,
+                "last_commit": "2026-09-29T21:50:00Z",
+                "open_issues": 377,
                 "owner": "assistant-ui",
                 "repo": "assistant-ui",
-                "stars": 12339,
+                "stars": 12355,
                 "topics": [
                   "ai-chatbot",
                   "base-ui",
@@ -333,11 +354,11 @@
                 "id": 815634288,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-09-26T22:55:12Z",
-                "open_issues": 43,
+                "last_commit": "2026-09-29T19:29:52Z",
+                "open_issues": 45,
                 "owner": "tambo-ai",
                 "repo": "tambo",
-                "stars": 11182,
+                "stars": 11181,
                 "topics": [
                   "agent",
                   "agents",
@@ -356,8 +377,8 @@
             },
             {
               "node_type": "item",
-              "title": "OpenUI Lang (Thesys)",
-              "description": "MIT-licensed, streaming-first DSL and React runtime for model-generated UI; a compact, token-efficient alternative to emitting component JSON.",
+              "title": "OpenUI (Thesys)",
+              "description": "Thesys. MIT-licensed generative UI framework built around OpenUI Lang, a compact streaming DSL for model-generated component trees, with runtimes for React, Vue, Svelte, and Angular. Also powers the commercial C1 API.",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -366,11 +387,11 @@
                 "id": 897268988,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-09-28T16:54:14Z",
-                "open_issues": 158,
+                "last_commit": "2026-09-29T16:41:50Z",
+                "open_issues": 161,
                 "owner": "thesysdev",
                 "repo": "openui",
-                "stars": 9893,
+                "stars": 9921,
                 "topics": [
                   "agent",
                   "agents",
@@ -384,6 +405,27 @@
             },
             {
               "node_type": "item",
+              "title": "GenUI SDK for Flutter",
+              "description": "Flutter. Composes UIs from your existing widget catalog and feeds UI state back to the agent; supports A2UI. Experimental.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": null,
+                "id": 1022190963,
+                "language": "Dart",
+                "license": "BSD-3-Clause",
+                "last_commit": "2026-09-29T18:27:48Z",
+                "open_issues": 22,
+                "owner": "flutter",
+                "repo": "genui",
+                "stars": 1776,
+                "topics": []
+              },
+              "first_seen": "2026-09-29T22:10:28.019Z"
+            },
+            {
+              "node_type": "item",
               "title": "Hashbrown",
               "description": "Framework for building generative user interfaces in Angular and React.",
               "children": [],
@@ -394,7 +436,7 @@
                 "id": 955577327,
                 "language": "TypeScript",
                 "license": "NOASSERTION",
-                "last_commit": "2026-09-25T23:23:17Z",
+                "last_commit": "2026-09-29T20:37:42Z",
                 "open_issues": 10,
                 "owner": "liveloveapp",
                 "repo": "hashbrown",
@@ -450,44 +492,6 @@
           "children": [
             {
               "node_type": "item",
-              "title": "Mitosis",
-              "description": "Builder.io. Write components once and compile to React/Vue/Svelte/etc.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Write components once, run everywhere. Compiles to React, Vue, Qwik, Solid, Angular, Svelte, and more. ",
-                "homepage": "https://mitosis.builder.io",
-                "id": 310456670,
-                "language": "TypeScript",
-                "license": "MIT",
-                "last_commit": "2026-07-21T14:38:54Z",
-                "open_issues": 176,
-                "owner": "BuilderIO",
-                "repo": "mitosis",
-                "stars": 14418,
-                "topics": [
-                  "angular",
-                  "builder",
-                  "compiler",
-                  "declarative",
-                  "figma",
-                  "jsx",
-                  "jsx-lite",
-                  "liquid",
-                  "no-code",
-                  "react",
-                  "shopify",
-                  "solid",
-                  "solidjs",
-                  "svelte",
-                  "visual",
-                  "vue"
-                ]
-              },
-              "first_seen": "2026-08-29T01:43:37.111Z"
-            },
-            {
-              "node_type": "item",
               "title": "Instructor",
               "description": "Structured output extraction; useful with UI schemas for reliable generation.",
               "children": [],
@@ -499,10 +503,10 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-09-27T02:55:29Z",
-                "open_issues": 115,
+                "open_issues": 123,
                 "owner": "567-labs",
                 "repo": "instructor",
-                "stars": 13955,
+                "stars": 13959,
                 "topics": [
                   "openai",
                   "openai-function-calli",
@@ -513,6 +517,35 @@
                 ]
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
+            },
+            {
+              "node_type": "item",
+              "title": "DeepSeek Harness GenUI",
+              "description": "PengYue. Community DeepSeek Harness plugin where the agent writes task-specific React UIs whose user inputs carry into later agent turns.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Task-specific React apps for DeepSeek Harness with state carried into the next Agent turn",
+                "homepage": null,
+                "id": 1334554248,
+                "language": "TypeScript",
+                "license": "MIT",
+                "last_commit": "2026-09-24T08:34:32Z",
+                "open_issues": 1,
+                "owner": "pengyue-polaron",
+                "repo": "deepseek-harness-genui",
+                "stars": 114,
+                "topics": [
+                  "deepseek-harness",
+                  "dsh",
+                  "dsh-plugin",
+                  "generative-ui",
+                  "genui",
+                  "mcp",
+                  "react"
+                ]
+              },
+              "first_seen": "2026-09-29T22:10:28.019Z"
             }
           ],
           "description": "Building blocks for reliable generation:",
@@ -540,7 +573,7 @@
                 "language": "TypeScript",
                 "license": "Apache-2.0",
                 "last_commit": "2026-09-25T06:14:43Z",
-                "open_issues": 88,
+                "open_issues": 87,
                 "owner": "wandb",
                 "repo": "openui",
                 "stars": 22573,
@@ -552,80 +585,11 @@
                 ]
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
-            },
-            {
-              "node_type": "item",
-              "title": "openv0",
-              "description": "Open source v0 clone that generates React/Tailwind components from prompts.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "AI generated UI components",
-                "homepage": null,
-                "id": 693743670,
-                "language": "TypeScript",
-                "license": "MIT",
-                "last_commit": "2024-09-19T02:49:32Z",
-                "open_issues": 35,
-                "owner": "nraiden",
-                "repo": "openv0",
-                "stars": 3957,
-                "topics": [
-                  "ai",
-                  "generative",
-                  "javascript",
-                  "react",
-                  "tailwind",
-                  "typescript",
-                  "ui"
-                ]
-              },
-              "first_seen": "2026-08-29T01:43:37.111Z"
             }
           ],
           "description": "\"Describe a component, get code.\"",
           "node_type": "group",
           "title": "Component Generators"
-        },
-        {
-          "children": [
-            {
-              "node_type": "item",
-              "title": "Cofounder",
-              "description": "Open source full-stack app generator with generative UI, databases, and APIs.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "ai-generated apps , full stack + generative UI",
-                "homepage": "https://cofounder.openinterface.ai/",
-                "id": 859600320,
-                "language": "TypeScript",
-                "license": "MIT",
-                "last_commit": "2024-11-08T20:47:03Z",
-                "open_issues": 68,
-                "owner": "nraiden",
-                "repo": "cofounder",
-                "stars": 6650,
-                "topics": [
-                  "ai",
-                  "api",
-                  "design",
-                  "generative",
-                  "javascript",
-                  "postgresql",
-                  "react",
-                  "tailwind",
-                  "typescript",
-                  "ui",
-                  "vite"
-                ]
-              },
-              "first_seen": "2026-08-29T01:43:37.111Z"
-            }
-          ],
-          "description": "\"Describe an app, get a deployable project.\"",
-          "node_type": "group",
-          "title": "App Builders"
         },
         {
           "children": [
@@ -641,11 +605,11 @@
                 "id": 718741813,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-09-09T17:27:34Z",
+                "last_commit": "2026-09-29T19:38:42Z",
                 "open_issues": 148,
                 "owner": "abi",
                 "repo": "screenshot-to-code",
-                "stars": 79828,
+                "stars": 79859,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
@@ -669,11 +633,11 @@
                 "id": 952688112,
                 "language": "TypeScript",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-28T23:06:44Z",
-                "open_issues": 4,
+                "last_commit": "2026-09-28T23:19:44Z",
+                "open_issues": 6,
                 "owner": "microsoft",
                 "repo": "playwright-mcp",
-                "stars": 37660,
+                "stars": 37699,
                 "topics": [
                   "mcp",
                   "playwright"
@@ -697,7 +661,7 @@
                 "open_issues": 25,
                 "owner": "GLips",
                 "repo": "Figma-Context-MCP",
-                "stars": 15927,
+                "stars": 15934,
                 "topics": [
                   "ai",
                   "cursor",
@@ -724,7 +688,7 @@
                 "open_issues": 88,
                 "owner": "grab",
                 "repo": "cursor-talk-to-figma-mcp",
-                "stars": 7041,
+                "stars": 7043,
                 "topics": [
                   "agent",
                   "agentic",
@@ -762,7 +726,7 @@
                 "open_issues": 5,
                 "owner": "21st-dev",
                 "repo": "magic-mcp",
-                "stars": 5945,
+                "stars": 5949,
                 "topics": [
                   "21st",
                   "claude",
@@ -792,7 +756,7 @@
                 "open_issues": 6,
                 "owner": "Jpisnice",
                 "repo": "shadcn-ui-mcp-server",
-                "stars": 3005,
+                "stars": 3007,
                 "topics": [
                   "ai",
                   "expo",
@@ -814,27 +778,6 @@
                   "vuejs",
                   "webdev"
                 ]
-              },
-              "first_seen": "2026-08-29T01:43:37.111Z"
-            },
-            {
-              "node_type": "item",
-              "title": "Storybook MCP",
-              "description": "Storybook. MCP server and addon that exposes component information and workflows from your local Storybook (npm).",
-              "children": [],
-              "repo_info": {
-                "archived": true,
-                "description": "🤖",
-                "homepage": "https://storybook-evals.vercel.app",
-                "id": 1042284426,
-                "language": "TypeScript",
-                "license": "MIT",
-                "last_commit": "2026-09-07T14:28:17Z",
-                "open_issues": 48,
-                "owner": "storybookjs",
-                "repo": "mcp",
-                "stars": 271,
-                "topics": []
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
             },
@@ -886,7 +829,7 @@
             "open_issues": 0,
             "owner": "cure53",
             "repo": "DOMPurify",
-            "stars": 17417,
+            "stars": 17422,
             "topics": [
               "cross-site-scripting",
               "dom",
@@ -915,11 +858,11 @@
             "id": 609539715,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-09-28T07:05:21Z",
-            "open_issues": 87,
+            "last_commit": "2026-09-29T16:16:12Z",
+            "open_issues": 90,
             "owner": "e2b-dev",
             "repo": "E2B",
-            "stars": 14009,
+            "stars": 14030,
             "topics": [
               "agent",
               "ai",
@@ -990,11 +933,11 @@
             "id": 633927609,
             "language": "TypeScript",
             "license": "MIT",
-            "last_commit": "2026-09-28T23:08:24Z",
-            "open_issues": 748,
+            "last_commit": "2026-09-29T22:08:52Z",
+            "open_issues": 715,
             "owner": "promptfoo",
             "repo": "promptfoo",
-            "stars": 25538,
+            "stars": 25562,
             "topics": [
               "ci",
               "ci-cd",
@@ -1031,10 +974,10 @@
             "language": "Python",
             "license": "Apache-2.0",
             "last_commit": "2026-09-16T21:54:58Z",
-            "open_issues": 471,
+            "open_issues": 474,
             "owner": "NVIDIA",
             "repo": "garak",
-            "stars": 9378,
+            "stars": 9386,
             "topics": [
               "ai",
               "llm-evaluation",
@@ -1051,17 +994,17 @@
           "description": "Microsoft. Red teaming toolkit for LLM apps (jailbreaks, prompt injection).",
           "children": [],
           "repo_info": {
-            "archived": true,
+            "archived": false,
             "description": "The Python Risk Identification Tool for generative AI (PyRIT) is an open source framework built to empower security professionals and engineers to proactively identify risks in generative AI systems.",
-            "homepage": "https://microsoft.github.io/PyRIT",
-            "id": 1191146757,
-            "language": null,
+            "homepage": "https://microsoft.github.io/PyRIT/",
+            "id": 730753909,
+            "language": "Python",
             "license": "MIT",
-            "last_commit": "2026-03-25T01:18:52Z",
-            "open_issues": 0,
-            "owner": "Azure",
+            "last_commit": "2026-09-29T19:52:11Z",
+            "open_issues": 138,
+            "owner": "microsoft",
             "repo": "PyRIT",
-            "stars": 116,
+            "stars": 4558,
             "topics": [
               "ai-red-team",
               "generative-ai",
@@ -1069,7 +1012,7 @@
               "responsible-ai"
             ]
           },
-          "first_seen": "2026-08-29T01:43:37.111Z"
+          "first_seen": "2026-09-29T22:10:28.019Z"
         }
       ],
       "title": "Evaluation & Testing"
@@ -1089,11 +1032,11 @@
             "id": 245704608,
             "language": "TypeScript",
             "license": "MIT",
-            "last_commit": "2026-09-24T02:29:02Z",
-            "open_issues": 77,
+            "last_commit": "2026-09-29T14:49:10Z",
+            "open_issues": 80,
             "owner": "colinhacks",
             "repo": "zod",
-            "stars": 44033,
+            "stars": 44044,
             "topics": [
               "runtime-validation",
               "schema-validation",
@@ -1120,7 +1063,7 @@
             "open_issues": 337,
             "owner": "guidance-ai",
             "repo": "guidance",
-            "stars": 21780,
+            "stars": 21783,
             "topics": []
           },
           "first_seen": "2026-08-29T01:43:37.111Z"
@@ -1141,7 +1084,7 @@
             "open_issues": 182,
             "owner": "dottxt-ai",
             "repo": "outlines",
-            "stars": 15891,
+            "stars": 15893,
             "topics": [
               "cfg",
               "generative-ai",
@@ -1165,37 +1108,6 @@
           "children": [
             {
               "node_type": "item",
-              "title": "LangUI",
-              "description": "LangbaseInc. Tailwind components for chat, AI assistants, and LLM projects.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "UI for your AI. Open Source Tailwind components tailored for your GPT, generative AI, and LLM projects.",
-                "homepage": "https://LangUI.dev",
-                "id": 644862510,
-                "language": "HTML",
-                "license": "MIT",
-                "last_commit": "2024-07-10T03:00:23Z",
-                "open_issues": 6,
-                "owner": "CommandCodeAI",
-                "repo": "langui",
-                "stars": 3144,
-                "topics": [
-                  "chat-ui",
-                  "chatgpt",
-                  "chatgpt-ui",
-                  "gpt",
-                  "gpt-3",
-                  "gpt-4",
-                  "gpt-ui",
-                  "lang-chain",
-                  "lang-ui"
-                ]
-              },
-              "first_seen": "2026-08-29T01:43:37.111Z"
-            },
-            {
-              "node_type": "item",
               "title": "Markstream",
               "description": "Multi-framework streaming Markdown components for AI chat, with Mermaid, KaTeX, code highlighting, safe HTML, and SSR support.",
               "children": [],
@@ -1206,11 +1118,11 @@
                 "id": 988222683,
                 "language": "Vue",
                 "license": "MIT",
-                "last_commit": "2026-09-22T07:43:23Z",
+                "last_commit": "2026-09-29T11:06:12Z",
                 "open_issues": 1,
                 "owner": "Simon-He95",
                 "repo": "markstream-vue",
-                "stars": 3021,
+                "stars": 3022,
                 "topics": [
                   "ai",
                   "ai-chat",
@@ -1234,6 +1146,27 @@
                 ]
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
+            },
+            {
+              "node_type": "item",
+              "title": "ChatKit",
+              "description": "OpenAI. Embeddable chat UI framework with streaming, tool visualization, and agent-rendered interactive widgets.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": "https://openai.github.io/chatkit-js/",
+                "id": 1069899547,
+                "language": "TypeScript",
+                "license": "Apache-2.0",
+                "last_commit": "2026-07-31T23:57:41Z",
+                "open_issues": 59,
+                "owner": "openai",
+                "repo": "chatkit-js",
+                "stars": 1957,
+                "topics": []
+              },
+              "first_seen": "2026-09-29T22:10:28.019Z"
             },
             {
               "node_type": "item",
@@ -1277,7 +1210,7 @@
           "children": [
             {
               "node_type": "item",
-              "title": "ai-chatbot",
+              "title": "Chatbot",
               "description": "Vercel. Full-featured chatbot with generative UI using the AI SDK.",
               "children": [],
               "repo_info": {
@@ -1291,7 +1224,7 @@
                 "open_issues": 28,
                 "owner": "vercel",
                 "repo": "chatbot",
-                "stars": 20974,
+                "stars": 20980,
                 "topics": [
                   "ai",
                   "chatgpt",
@@ -1320,7 +1253,7 @@
                 "open_issues": 55,
                 "owner": "miurla",
                 "repo": "morphic",
-                "stars": 9146,
+                "stars": 9150,
                 "topics": [
                   "generative-ai",
                   "generative-ui",
@@ -1335,74 +1268,6 @@
                   "upstash",
                   "vercel-ai-sdk"
                 ]
-              },
-              "first_seen": "2026-08-29T01:43:37.111Z"
-            },
-            {
-              "node_type": "item",
-              "title": "termite",
-              "description": "Terminal-based generative UI.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Generative UI in your terminal",
-                "homepage": null,
-                "id": 826127627,
-                "language": "Python",
-                "license": "Apache-2.0",
-                "last_commit": "2025-01-06T01:54:56Z",
-                "open_issues": 7,
-                "owner": "shobrook",
-                "repo": "termite",
-                "stars": 419,
-                "topics": [
-                  "code-generation",
-                  "generative-ui",
-                  "terminal-app",
-                  "tui"
-                ]
-              },
-              "first_seen": "2026-08-29T01:43:37.111Z"
-            },
-            {
-              "node_type": "item",
-              "title": "langgraphjs-gen-ui-examples",
-              "description": "LangChain. Collection of generative UI agents built with LangGraph.js.",
-              "children": [],
-              "repo_info": {
-                "archived": true,
-                "description": "A collection of generative UI agents written with LangGraph.js",
-                "homepage": null,
-                "id": 946160034,
-                "language": "TypeScript",
-                "license": "MIT",
-                "last_commit": "2025-05-01T15:55:49Z",
-                "open_issues": 12,
-                "owner": "langchain-ai",
-                "repo": "langgraphjs-gen-ui-examples",
-                "stars": 402,
-                "topics": []
-              },
-              "first_seen": "2026-08-29T01:43:37.111Z"
-            },
-            {
-              "node_type": "item",
-              "title": "gen-ui",
-              "description": "Reference implementation for generative UI with LangChain.js, AI SDK, and Next.js.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "🧬 Generative UI web application built with LangChain.js, AI SDK & Next.js",
-                "homepage": null,
-                "id": 807371448,
-                "language": "TypeScript",
-                "license": null,
-                "last_commit": "2024-08-01T17:13:07Z",
-                "open_issues": 3,
-                "owner": "bracesproul",
-                "repo": "gen-ui",
-                "stars": 293,
-                "topics": []
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
             }
@@ -1435,7 +1300,7 @@
                 "open_issues": 343,
                 "owner": "openai",
                 "repo": "evals",
-                "stars": 19517,
+                "stars": 19524,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:43:37.111Z"
@@ -1452,11 +1317,11 @@
                 "id": 309504885,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-09-28T20:44:26Z",
-                "open_issues": 74,
+                "last_commit": "2026-09-29T13:52:55Z",
+                "open_issues": 76,
                 "owner": "truera",
                 "repo": "trulens",
-                "stars": 3576,
+                "stars": 3579,
                 "topics": [
                   "agent-evaluation",
                   "agentops",
@@ -1485,7 +1350,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-28T23:12:14.465Z",
+    "last_updated": "2026-09-29T22:10:28.019Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of resources for AI-generated user interfaces — systems where LLMs dynamically create, compose, and render UI components.",
@@ -1493,8 +1358,8 @@
       "id": 1117387225,
       "language": null,
       "license": "CC-BY-4.0",
-      "last_commit": "2026-08-14T08:56:28Z",
-      "open_issues": 3,
+      "last_commit": "2026-09-29T13:02:19Z",
+      "open_issues": 1,
       "owner": "narrowin",
       "repo": "awesome-generative-ui",
       "stars": 126,
@@ -1509,7 +1374,7 @@
         "ui-design"
       ]
     },
-    "original_repository_sha": "d9079f48e36f82ccfd2048ac73a856c3283084e8",
+    "original_repository_sha": "b462e1348df5a9a1869d6ffa6ced877ec5150fcd",
     "enhanced_repository": "enhansome/enhansome-generative-ui",
     "enhanced_repository_description": null,
     "title": "Awesome Generative UI with stars"
