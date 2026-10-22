@@ -144,9 +144,9 @@ In practice, the 2025–2026 wave of developer tooling has mostly leaned the oth
 
 ### Open Specifications
 
-* [Model Context Protocol (MCP) Servers](https://github.com/modelcontextprotocol/servers) ⭐ 91,450 | 🐛 140 | 🌐 TypeScript | 📅 2026-10-19 - Reference implementations of MCP servers and tooling.
-* [mcp-ui](https://github.com/MCP-UI-Org/mcp-ui) ⭐ 5,227 | 🐛 63 | 🌐 TypeScript | 📅 2026-09-16 - Ido Salomon and Liad Yosef. Community SDK (TypeScript, Ruby, Python) for serving interactive UI over MCP; pioneered the pattern that fed the official MCP Apps spec.
-* [MCP Apps (UI Extension)](https://github.com/modelcontextprotocol/ext-apps) ⭐ 2,992 | 🐛 232 | 🌐 TypeScript | 📅 2026-09-25 - The official MCP extension for interactive UI: tools return UI resources that render in an iframe inside the host client. Builds on mcp-ui and the OpenAI Apps SDK ([announcement](https://blog.modelcontextprotocol.io/posts/2026-01-26-mcp-apps/)).
+* [Model Context Protocol (MCP) Servers](https://github.com/modelcontextprotocol/servers) ⭐ 91,487 | 🐛 135 | 🌐 TypeScript | 📅 2026-10-22 - Reference implementations of MCP servers and tooling.
+* [mcp-ui](https://github.com/MCP-UI-Org/mcp-ui) ⭐ 5,229 | 🐛 63 | 🌐 TypeScript | 📅 2026-09-16 - Ido Salomon and Liad Yosef. Community SDK (TypeScript, Ruby, Python) for serving interactive UI over MCP; pioneered the pattern that fed the official MCP Apps spec.
+* [MCP Apps (UI Extension)](https://github.com/modelcontextprotocol/ext-apps) ⭐ 2,998 | 🐛 236 | 🌐 TypeScript | 📅 2026-10-22 - The official MCP extension for interactive UI: tools return UI resources that render in an iframe inside the host client. Builds on mcp-ui and the OpenAI Apps SDK ([announcement](https://blog.modelcontextprotocol.io/posts/2026-01-26-mcp-apps/)).
 * [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) - Anthropic. Protocol for connecting AI models to external data sources and tools.
 * [OpenAI Apps SDK / ChatGPT Plugins](https://developers.openai.com/plugins) - OpenAI. Build plugins (called ChatGPT apps until July 2026) that render interactive UI inline in ChatGPT; extends MCP with a UI layer via the MCP Apps bridge.
 * [Adaptive Cards](https://adaptivecards.microsoft.com/) - Microsoft. Platform-agnostic JSON card format rendered natively by host apps such as Teams and Outlook; a long-standing precursor to declarative agent UI specs.
@@ -155,8 +155,8 @@ In practice, the 2025–2026 wave of developer tooling has mostly leaned the oth
 
 *Protocols that connect agent backends to front ends and describe the UI that agents emit.*
 
-* [A2UI](https://github.com/a2ui-project/a2ui) ⭐ 16,767 | 🐛 507 | 🌐 TypeScript | 📅 2026-10-21 - Google. Declarative, streaming (JSONL) generative-UI spec: agents request allow-listed components that the client renders natively (Flutter, Angular, Lit). A data format, not executable code ([site](https://a2ui.org/)).
-* [AG-UI (Agent-User Interaction Protocol)](https://github.com/ag-ui-protocol/ag-ui) ⭐ 16,747 | 🐛 488 | 🌐 TypeScript | 📅 2026-10-21 - CopilotKit. Open, event-based protocol that streams agent activity and shared state to front ends over SSE. Adopted by Google, LangChain, AWS, Microsoft, Mastra, and PydanticAI.
+* [A2UI](https://github.com/a2ui-project/a2ui) ⭐ 16,780 | 🐛 620 | 🌐 TypeScript | 📅 2026-10-22 - Google. Declarative, streaming (JSONL) generative-UI spec: agents request allow-listed components that the client renders natively (Flutter, Angular, Lit). A data format, not executable code ([site](https://a2ui.org/)).
+* [AG-UI (Agent-User Interaction Protocol)](https://github.com/ag-ui-protocol/ag-ui) ⭐ 16,766 | 🐛 483 | 🌐 TypeScript | 📅 2026-10-22 - CopilotKit. Open, event-based protocol that streams agent activity and shared state to front ends over SSE. Adopted by Google, LangChain, AWS, Microsoft, Mastra, and PydanticAI.
 
 ### How the Layers Fit Together
 
@@ -176,13 +176,13 @@ These specs are largely complementary rather than competing — they standardize
 
 Purpose-built for streaming AI-generated interfaces:
 
-* [CopilotKit](https://github.com/CopilotKit/CopilotKit) ⭐ 38,160 | 🐛 339 | 🌐 TypeScript | 📅 2026-10-21 - Full-stack framework for in-app agents and generative UI across React, Angular, mobile, and Slack; makers of the AG-UI protocol.
-* [json-render](https://github.com/vercel-labs/json-render) ⭐ 18,749 | 🐛 120 | 🌐 TypeScript | 📅 2026-10-21 - Vercel Labs. Apache-2.0 framework where models emit JSON constrained to a catalog of predefined components and actions, with renderers for React, React Native, Vue, Svelte, and Solid plus PDF, email, and video targets.
-* [OpenUI (Thesys)](https://github.com/thesysdev/openui) ⭐ 12,909 | 🐛 171 | 🌐 TypeScript | 📅 2026-10-19 - Thesys. MIT-licensed generative UI framework built around OpenUI Lang, a compact streaming DSL for model-generated component trees, with runtimes for React, Vue, Svelte, and Angular. Also powers the commercial [C1](https://www.thesys.dev/) API.
-* [assistant-ui](https://github.com/assistant-ui/assistant-ui) ⭐ 12,659 | 🐛 38 | 🌐 TypeScript | 📅 2026-10-21 - TypeScript/React primitives for AI chat with a first-class generative-UI primitive that renders agent-described components from a consumer-provided allowlist.
+* [CopilotKit](https://github.com/CopilotKit/CopilotKit) ⭐ 38,185 | 🐛 364 | 🌐 TypeScript | 📅 2026-10-22 - Full-stack framework for in-app agents and generative UI across React, Angular, mobile, and Slack; makers of the AG-UI protocol.
+* [json-render](https://github.com/vercel-labs/json-render) ⭐ 18,763 | 🐛 111 | 🌐 TypeScript | 📅 2026-10-22 - Vercel Labs. Apache-2.0 framework where models emit JSON constrained to a catalog of predefined components and actions, with renderers for React, React Native, Vue, Svelte, and Solid plus PDF, email, and video targets.
+* [OpenUI (Thesys)](https://github.com/thesysdev/openui) ⭐ 13,083 | 🐛 169 | 🌐 TypeScript | 📅 2026-10-22 - Thesys. MIT-licensed generative UI framework built around OpenUI Lang, a compact streaming DSL for model-generated component trees, with runtimes for React, Vue, Svelte, and Angular. Also powers the commercial [C1](https://www.thesys.dev/) API.
+* [assistant-ui](https://github.com/assistant-ui/assistant-ui) ⭐ 12,680 | 🐛 36 | 🌐 TypeScript | 📅 2026-10-22 - TypeScript/React primitives for AI chat with a first-class generative-UI primitive that renders agent-described components from a consumer-provided allowlist.
 * [Tambo](https://github.com/tambo-ai/tambo) ⭐ 11,198 | 🐛 49 | 🌐 TypeScript | 📅 2026-10-21 - Generative UI SDK for React, purpose-built for streaming AI-generated components.
-* [GenUI SDK for Flutter](https://github.com/flutter/genui) ⭐ 1,785 | 🐛 21 | 🌐 Dart | 📅 2026-10-20 - Flutter. Composes UIs from your existing widget catalog and feeds UI state back to the agent; supports A2UI. Experimental.
-* [Hashbrown](https://github.com/liveloveapp/hashbrown) ⭐ 728 | 🐛 13 | 🌐 TypeScript | 📅 2026-10-21 - Framework for building generative user interfaces in Angular and React.
+* [GenUI SDK for Flutter](https://github.com/flutter/genui) ⭐ 1,788 | 🐛 21 | 🌐 Dart | 📅 2026-10-20 - Flutter. Composes UIs from your existing widget catalog and feeds UI state back to the agent; supports A2UI. Experimental.
+* [Hashbrown](https://github.com/liveloveapp/hashbrown) ⭐ 728 | 🐛 11 | 🌐 TypeScript | 📅 2026-10-22 - Framework for building generative user interfaces in Angular and React.
 * [mdocUI](https://github.com/mdocui/mdocui) ⭐ 42 | 🐛 1 | 🌐 TypeScript | 📅 2026-10-17 - Streaming generative UI using Markdoc `{% %}` tag syntax. Framework-agnostic core with React renderer, 24 theme-neutral components, and Zod schema validation.
 * [Vercel AI SDK](https://ai-sdk.dev/) - Vercel. Multi-provider TypeScript toolkit for React, Vue, Svelte, and Angular; generative UI is built by rendering typed tool results on the client ([guide](https://ai-sdk.dev/docs/ai-sdk-ui/generative-user-interfaces)). The original RSC-based `streamUI()` is experimental.
 * [Cuttlekit](https://cuttlekit.com) - Fully generative UI framework, framework agnostic, optimised for performance and real-time UI generation.
@@ -191,8 +191,8 @@ Purpose-built for streaming AI-generated interfaces:
 
 Building blocks for reliable generation:
 
-* [Instructor](https://github.com/567-labs/instructor) ⭐ 14,042 | 🐛 214 | 🌐 Python | 📅 2026-10-20 - Structured output extraction; useful with UI schemas for reliable generation.
-* [DeepSeek Harness GenUI](https://github.com/pengyue-polaron/deepseek-harness-genui) ⭐ 117 | 🐛 1 | 🌐 TypeScript | 📅 2026-09-24 - PengYue. Community DeepSeek Harness plugin where the agent writes task-specific React UIs whose user inputs carry into later agent turns.
+* [Instructor](https://github.com/567-labs/instructor) ⭐ 14,049 | 🐛 213 | 🌐 Python | 📅 2026-10-20 - Structured output extraction; useful with UI schemas for reliable generation.
+* [DeepSeek Harness GenUI](https://github.com/pengyue-polaron/deepseek-harness-genui) ⭐ 118 | 🐛 1 | 🌐 TypeScript | 📅 2026-09-24 - PengYue. Community DeepSeek Harness plugin where the agent writes task-specific React UIs whose user inputs carry into later agent turns.
 
 ### Models
 
@@ -208,7 +208,7 @@ Models trained specifically to generate UI:
 
 *"Describe a component, get code."*
 
-* [OpenUI (Weights & Biases)](https://github.com/wandb/openui) ⭐ 22,644 | 🐛 89 | 🌐 TypeScript | 📅 2026-10-21 - Describe UI in natural language and see it rendered live.
+* [OpenUI (Weights & Biases)](https://github.com/wandb/openui) ⭐ 22,657 | 🐛 89 | 🌐 TypeScript | 📅 2026-10-22 - Describe UI in natural language and see it rendered live.
 * [v0](https://v0.app/) - Vercel (commercial). Generate React/Tailwind components from prompts; known for shadcn/ui integration.
 
 ### App Builders
@@ -222,7 +222,7 @@ Models trained specifically to generate UI:
 
 *"Convert visuals to working code."*
 
-* [Screenshot-to-Code](https://github.com/abi/screenshot-to-code) ⭐ 80,600 | 🐛 148 | 🌐 Python | 📅 2026-10-09 - Convert screenshots or designs to HTML/React/Vue code.
+* [Screenshot-to-Code](https://github.com/abi/screenshot-to-code) ⭐ 80,638 | 🐛 148 | 🌐 Python | 📅 2026-10-09 - Convert screenshots or designs to HTML/React/Vue code.
 * [tldraw make-real](https://makereal.tldraw.com/) - Turn a wireframe into a working React component.
 * [Google Stitch](https://stitch.withgoogle.com/) - Google Labs. Generates web and mobile UI designs plus front-end code from prompts, screenshots, or sketches.
 * [Figma Make](https://www.figma.com/make/) - Figma. Prompt-to-UI inside Figma that builds working interfaces using your existing components and design system.
@@ -233,11 +233,11 @@ Models trained specifically to generate UI:
 
 *"Model Context Protocol servers that improve AI UI generation."*
 
-* [Playwright MCP](https://github.com/microsoft/playwright-mcp) ⭐ 38,472 | 🐛 0 | 🌐 TypeScript | 📅 2026-10-19 - Microsoft. MCP server for browser automation and UI regression testing workflows.
-* [Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP) ⭐ 16,035 | 🐛 28 | 🌐 TypeScript | 📅 2026-10-16 - GLips. Provides Figma layout information to AI coding agents.
-* [Cursor Talk to Figma MCP](https://github.com/grab/cursor-talk-to-figma-mcp) ⭐ 7,065 | 🐛 93 | 🌐 JavaScript | 📅 2026-07-26 - Grab. MCP server + Figma plugin for reading and modifying Figma designs.
-* [21st.dev Magic MCP](https://github.com/21st-dev/magic-mcp) ⭐ 6,176 | 🐛 7 | 🌐 TypeScript | 📅 2026-09-09 - 21st.dev. Generate UI components from prompts with design-system awareness.
-* [shadcn-ui-mcp-server](https://github.com/Jpisnice/shadcn-ui-mcp-server) ⭐ 3,066 | 🐛 6 | 🌐 TypeScript | 📅 2026-10-03 - Jpisnice. Helps LLMs understand shadcn/ui component structure.
+* [Playwright MCP](https://github.com/microsoft/playwright-mcp) ⭐ 38,513 | 🐛 0 | 🌐 TypeScript | 📅 2026-10-22 - Microsoft. MCP server for browser automation and UI regression testing workflows.
+* [Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP) ⭐ 16,047 | 🐛 28 | 🌐 TypeScript | 📅 2026-10-16 - GLips. Provides Figma layout information to AI coding agents.
+* [Cursor Talk to Figma MCP](https://github.com/grab/cursor-talk-to-figma-mcp) ⭐ 7,069 | 🐛 93 | 🌐 JavaScript | 📅 2026-07-26 - Grab. MCP server + Figma plugin for reading and modifying Figma designs.
+* [21st.dev Magic MCP](https://github.com/21st-dev/magic-mcp) ⭐ 6,194 | 🐛 8 | 🌐 TypeScript | 📅 2026-09-09 - 21st.dev. Generate UI components from prompts with design-system awareness.
+* [shadcn-ui-mcp-server](https://github.com/Jpisnice/shadcn-ui-mcp-server) ⭐ 3,065 | 🐛 7 | 🌐 TypeScript | 📅 2026-10-03 - Jpisnice. Helps LLMs understand shadcn/ui component structure.
 * [shadcn-vue-mcp](https://github.com/HelloGGX/shadcn-vue-mcp) ⭐ 109 | 🐛 2 | 🌐 TypeScript | 📅 2025-11-16 - HelloGGX. MCP server for shadcn-vue component knowledge.
 * [MUI MCP](https://mui.com/x/introduction/mcp/) - MUI. MCP server for MUI docs and code examples, published as `@mui/mcp` ([npm](https://www.npmjs.com/package/@mui/mcp)).
 * [Storybook MCP](https://storybook.js.org/docs/ai/mcp/overview) - Storybook. MCP server and addon that exposes component information and workflows from your local Storybook; part of Storybook core since v10.6 ([npm](https://www.npmjs.com/package/@storybook/mcp)).
@@ -256,8 +256,8 @@ Models trained specifically to generate UI:
 
 *When UIs (or UI code) are model-generated, treat outputs as untrusted. These resources cover browser sandboxing, sanitization, and LLM-app security pitfalls.*
 
-* [DOMPurify](https://github.com/cure53/DOMPurify) ⭐ 17,477 | 🐛 13 | 🌐 JavaScript | 📅 2026-10-16 - Widely used HTML sanitizer for untrusted/generated markup.
-* [E2B](https://github.com/e2b-dev/e2b) ⭐ 14,492 | 🐛 102 | 🌐 Python | 📅 2026-10-21 - Sandboxed code execution environments for running untrusted generated code.
+* [DOMPurify](https://github.com/cure53/DOMPurify) ⭐ 17,476 | 🐛 13 | 🌐 JavaScript | 📅 2026-10-16 - Widely used HTML sanitizer for untrusted/generated markup.
+* [E2B](https://github.com/e2b-dev/e2b) ⭐ 14,502 | 🐛 103 | 🌐 Python | 📅 2026-10-22 - Sandboxed code execution environments for running untrusted generated code.
 * [Sandpack](https://github.com/codesandbox/sandpack) ⭐ 6,253 | 🐛 164 | 🌐 TypeScript | 📅 2025-04-24 - CodeSandbox. In-browser code sandboxing patterns for safe previews.
 * [OWASP Top 10 for LLM Applications](https://owasp.org/projects/top-10-for-large-language-model-applications) - OWASP. Threat model checklist for LLM apps (prompt injection, insecure tool use, data leakage).
 * [OWASP Prompt Injection Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html) - OWASP. Practical mitigations for prompt/tool injection in production systems.
@@ -271,9 +271,9 @@ Models trained specifically to generate UI:
 
 *Tools and practices for regression testing generated UIs, validating structured outputs, and red-teaming LLM apps.*
 
-* [promptfoo](https://github.com/promptfoo/promptfoo) ⭐ 26,245 | 🐛 817 | 🌐 TypeScript | 📅 2026-10-21 - Prompt and tool-call regression testing across models.
-* [garak](https://github.com/NVIDIA/garak) ⭐ 9,636 | 🐛 511 | 🌐 Python | 📅 2026-10-20 - NVIDIA. LLM vulnerability scanner for automated probing.
-* [PyRIT](https://github.com/microsoft/PyRIT) ⭐ 4,668 | 🐛 164 | 🌐 Python | 📅 2026-10-21 - Microsoft. Red teaming toolkit for LLM apps (jailbreaks, prompt injection).
+* [promptfoo](https://github.com/promptfoo/promptfoo) ⭐ 26,300 | 🐛 838 | 🌐 TypeScript | 📅 2026-10-22 - Prompt and tool-call regression testing across models.
+* [garak](https://github.com/NVIDIA/garak) ⭐ 9,655 | 🐛 508 | 🌐 Python | 📅 2026-10-21 - NVIDIA. LLM vulnerability scanner for automated probing.
+* [PyRIT](https://github.com/microsoft/PyRIT) ⭐ 4,673 | 🐛 138 | 🌐 Python | 📅 2026-10-22 - Microsoft. Red teaming toolkit for LLM apps (jailbreaks, prompt injection).
 * [Playwright](https://playwright.dev/) - Microsoft. E2E testing and screenshot diffs for UI regression testing.
 * [Storybook Test Runner](https://storybook.js.org/docs/writing-tests/integrations/test-runner) - Storybook. Automates component-level interaction testing.
 
@@ -283,9 +283,9 @@ Models trained specifically to generate UI:
 
 *Make model outputs reliable: constrain generation, validate payloads, and standardize tool/component contracts.*
 
-* [Zod](https://github.com/colinhacks/zod) ⭐ 44,168 | 🐛 96 | 🌐 TypeScript | 📅 2026-10-19 - Colin Hacks. TypeScript schema validation for enforcing output shapes at runtime.
-* [Guidance](https://github.com/guidance-ai/guidance) ⭐ 21,804 | 🐛 354 | 🌐 Jupyter Notebook | 📅 2026-05-21 - Grammar- and constraint-oriented prompting for structured outputs.
-* [Outlines](https://github.com/dottxt-ai/outlines) ⭐ 15,966 | 🐛 200 | 🌐 Python | 📅 2026-09-21 - Structured generation with JSON/grammar constraints.
+* [Zod](https://github.com/colinhacks/zod) ⭐ 44,171 | 🐛 97 | 🌐 TypeScript | 📅 2026-10-19 - Colin Hacks. TypeScript schema validation for enforcing output shapes at runtime.
+* [Guidance](https://github.com/guidance-ai/guidance) ⭐ 21,805 | 🐛 353 | 🌐 Jupyter Notebook | 📅 2026-05-21 - Grammar- and constraint-oriented prompting for structured outputs.
+* [Outlines](https://github.com/dottxt-ai/outlines) ⭐ 15,969 | 🐛 201 | 🌐 Python | 📅 2026-09-21 - Structured generation with JSON/grammar constraints.
 * [JSON Schema](https://json-schema.org/) - Standard for validating structured model outputs.
 * [OpenAPI Specification](https://spec.openapis.org/oas/latest.html) - OpenAPI Initiative. Standard contract format for APIs and tool catalogs.
 * [shadcn/ui Registry](https://ui.shadcn.com/docs/registry) - Component registry pattern commonly targeted by UI generators.
@@ -307,9 +307,9 @@ Models trained specifically to generate UI:
 
 *Components designed for LLM-powered apps:*
 
-* [Markstream](https://github.com/Simon-He95/markstream-vue) ⭐ 3,030 | 🐛 0 | 🌐 Vue | 📅 2026-10-19 - Multi-framework streaming Markdown components for AI chat, with Mermaid, KaTeX, code highlighting, safe HTML, and SSR support.
-* [ChatKit](https://github.com/openai/chatkit-js) ⭐ 1,965 | 🐛 64 | 🌐 TypeScript | 📅 2026-07-31 - OpenAI. Embeddable chat UI framework with streaming, tool visualization, and agent-rendered interactive widgets.
-* [GPT-Vis](https://github.com/antvis/GPT-Vis) ⭐ 793 | 🐛 6 | 🌐 TypeScript | 📅 2026-10-21 - AntV. Visualization components designed for LLM-generated outputs.
+* [Markstream](https://github.com/Simon-He95/markstream-vue) ⭐ 3,032 | 🐛 0 | 🌐 Vue | 📅 2026-10-19 - Multi-framework streaming Markdown components for AI chat, with Mermaid, KaTeX, code highlighting, safe HTML, and SSR support.
+* [ChatKit](https://github.com/openai/chatkit-js) ⭐ 1,966 | 🐛 64 | 🌐 TypeScript | 📅 2026-07-31 - OpenAI. Embeddable chat UI framework with streaming, tool visualization, and agent-rendered interactive widgets.
+* [GPT-Vis](https://github.com/antvis/GPT-Vis) ⭐ 793 | 🐛 6 | 🌐 TypeScript | 📅 2026-10-22 - AntV. Visualization components designed for LLM-generated outputs.
 * [AI Elements](https://vercel.com/changelog/introducing-ai-elements) - Vercel. 20+ shadcn/ui-based React components for AI interfaces (message threads, reasoning panels, tool output), integrated with the AI SDK.
 
 ### Visualization
@@ -327,7 +327,7 @@ Models trained specifically to generate UI:
 
 ### Open Source
 
-* [Chatbot](https://github.com/vercel/chatbot) ⭐ 21,001 | 🐛 29 | 🌐 TypeScript | 📅 2026-07-08 - Vercel. Full-featured chatbot with generative UI using the AI SDK.
+* [Chatbot](https://github.com/vercel/chatbot) ⭐ 21,006 | 🐛 29 | 🌐 TypeScript | 📅 2026-07-08 - Vercel. Full-featured chatbot with generative UI using the AI SDK.
 * [morphic](https://github.com/miurla/morphic) ⭐ 9,190 | 🐛 55 | 🌐 TypeScript | 📅 2026-10-21 - AI-powered search engine with generative answer UI.
 
 ***
@@ -355,8 +355,8 @@ Design-to-code converts designs (e.g., Figma) to code. Code generation is the br
 
 ### Evaluation tooling (adjacent)
 
-* [OpenAI Evals](https://github.com/openai/evals) ⭐ 19,625 | 🐛 348 | 🌐 Python | 📅 2026-04-14 - OpenAI. Framework for evaluating model outputs with custom tasks and graders.
-* [TruLens](https://github.com/truera/trulens) ⭐ 3,607 | 🐛 115 | 🌐 Python | 📅 2026-10-19 - TruEra. Evaluation and feedback tooling for LLM applications.
+* [OpenAI Evals](https://github.com/openai/evals) ⭐ 19,634 | 🐛 349 | 🌐 Python | 📅 2026-04-14 - OpenAI. Framework for evaluating model outputs with custom tasks and graders.
+* [TruLens](https://github.com/truera/trulens) ⭐ 3,609 | 🐛 116 | 🌐 Python | 📅 2026-10-19 - TruEra. Evaluation and feedback tooling for LLM applications.
 * [LangSmith Evaluation](https://docs.langchain.com/langsmith/evaluation-concepts) - LangChain. Evaluation patterns and workflows for LLM apps.
 
 ### Standards & Formats
@@ -383,4 +383,4 @@ License: CC BY 4.0 (see [LICENSE](LICENSE)).
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-21._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-22._
